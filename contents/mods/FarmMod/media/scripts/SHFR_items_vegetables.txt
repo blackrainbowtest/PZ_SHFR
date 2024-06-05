@@ -1,0 +1,327 @@
+module SHFR {
+    imports { Base }
+
+    /* семена авокадо */
+    item Avocadoseed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Avocado Seeds,
+        Icon				=		SHFR_Seed_AvocadoSeeds,
+        Weight				=		0.009,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel	= 		AvocadoSeeds_Ground,
+    }
+
+    /* семена кукурузы */
+    item Cornseed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Corn Seeds,
+        Icon				=		SHFR_Seed_CornSeeds,
+        Weight				=		0.009,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		CornSeeds_Ground,
+    }
+
+    /* семена баклажана */
+    item Eggplantseed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Eggplant Seeds,
+        Icon				=		SHFR_Seed_EggplantSeeds,
+        Weight				=		0.009,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		EggplantSeeds_Ground,
+    }
+
+    /* семена лука-порей */
+    item Leekseed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Leek Seeds,
+        Icon				=		SHFR_Seed_LeekSeeds,
+        Weight				=		0.009,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		LeekSeeds_Ground,
+    }
+
+    /* семена салата */
+    item Lettuceseed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Lettuce Seeds,
+        Icon				=		SHFR_Seed_LettuceSeeds,
+        Weight				=		0.009,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		LettuceSeeds_Ground,
+    }
+
+    /* семена лука */
+    item Onionseed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Onion Seeds,
+        Icon				=		SHFR_Seed_OnionSeeds,
+        Weight				=		0.009,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		OnionSeeds_Ground,
+    }
+
+    /* семена перца */
+    item Pepperseed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Pepper Seeds,
+        Icon				=		SHFR_Seed_PepperSeeds,
+        Weight				=		0.009,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		PepperSeeds_Ground,
+    }
+
+    /* семена арбуза */
+    item Watermelonseed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Watermelon Seeds,
+        Icon				=		SHFR_Seed_WatermelonSeeds,
+        Weight				=		0.009,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		WatermelonSeeds_Ground,
+    }
+
+    /* семена кабачков */
+    item Zucchiniseed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Zucchini Seeds,
+        Icon				=		SHFR_Seed_ZucchiniSeeds,
+        Weight				=		0.009,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		ZucchiniSeeds_Ground,
+    }
+
+    /* пачка семян авокадо */
+    item AvocadoBagSeed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Avocado Seeds Packet,
+        Icon				=		SHFR_Bag_AvocadoSeedBag,
+        Weight				=		0.1,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		AvocadoSeedBag_Ground,
+    }
+
+    /* пачка семян кукурузы */
+    item CornBagSeed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Corn Seeds Packet,
+        Icon				=		SHFR_Bag_CornSeedBag,
+        Weight				=		0.1,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		CornSeedBag_Ground,
+    }
+
+    /* пачка семян баклажана */
+    item EggplantBagSeed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Eggplant Seeds Packet,
+        Icon				=		SHFR_Bag_EggplantSeedBag,
+        Weight				=		0.1,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		EggplantSeedBag_Ground,
+    }
+
+    /* пачка семян лука-порей */
+    item LeekBagSeed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Leek Seeds Packet,
+        Icon				=		SHFR_Bag_LeekSeedBag,
+        Weight				=		0.1,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		LeekSeedBag_Ground,
+    }
+
+    /* пачка семян салата */
+    item LettuceBagSeed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Lettuce Seeds Packet,
+        Icon				=		SHFR_Bag_LettuceSeedBag,
+        Weight				=		0.1,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		LettuceSeedBag_Ground,
+    }
+
+    /* пачка семян лука */
+    item OnionBagSeed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Onion Seeds Packet,
+        Icon				=		SHFR_Bag_OnionSeedBag,
+        Weight				=		0.1,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		OnionSeedBag_Ground,
+    }
+
+    /* пачка семян арбуза */
+    item WatermelonBagSeed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Watermelon Seeds Packet,
+        Icon				=		SHFR_Bag_WatermelonSeedBag,
+        Weight				=		0.1,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		WatermelonSeedBag_Ground,
+    }
+
+    /* пачка семян перца */
+    item PepperBagSeed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Pepper Seeds Packet,
+        Icon				=		SHFR_Bag_PepperSeedBag,
+        Weight				=		0.1,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		PepperSeedBag_Ground,
+    }
+
+    /* пачка семян кабачков */
+    item ZucchiniBagSeed {
+        DisplayCategory 	= 		Gardening,
+        Type				=		Normal,
+        DisplayName			=		Zucchini Seeds Packet,
+        Icon				=		SHFR_Bag_ZucchiniSeedBag,
+        Weight				=		0.1,
+        SurvivalGear 		= 		TRUE,
+        WorldStaticModel 	= 		ZucchiniSeedBag_Ground,
+    }
+
+    /* семена авокадо */
+    model AvocadoSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_AvocadoSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена кукурузы */
+    model CornSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_CornSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена баклажана */
+    model EggplantSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_EggplantSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена лука-порей */
+    model LeekSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_LeekSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена салата */
+    model LettuceSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_LettuceSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена лука */
+    model OnionSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_OnionSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена перца */
+    model PepperSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_PepperSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена арбуза */
+    model WatermelonSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_WatermelonSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена кабачков */
+    model ZucchiniSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_ZucchiniSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян авокадо */
+    model AvocadoSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_AvocadoSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян кукурузы */
+    model CornSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_CornSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян баклажана */
+    model EggplantSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_EggplantSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян лука-порей */
+    model LeekSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_LeekSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян салата */
+    model LettuceSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_LettuceSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян лука */
+    model OnionSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_OnionSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян перца */
+    model PepperSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_PepperSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян арбуза */
+    model WatermelonSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_WatermelonSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян кабачков */
+    model ZucchiniSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_ZucchiniSeedBag_Ground,
+        scale		= 0.5,
+    }
+}

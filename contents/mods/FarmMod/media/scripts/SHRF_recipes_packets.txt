@@ -1,0 +1,560 @@
+module SHFR {
+    imports { Base }
+
+    /* пачка семян яблоки */
+    recipe Open Packet of Apple Seeds {
+        AppleBagSeed,
+
+        Result:Appleseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян банана */
+    recipe Open Packet of Banana Seeds {
+        BananaBagSeed,
+
+        Result:Bananaseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена черники */
+    recipe Open Packet of BerryBlack Seeds {
+        BerryBlackBagSeed,
+
+        Result:BerryBlackseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена смородины */
+    recipe Open Packet of BerryBlue Seeds {
+        BerryBlueBagSeed,
+
+        Result:BerryBlueseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян вишни */
+    recipe Open Packet of Cherry Seeds {
+        CherryBagSeed,
+
+        Result:Cherryseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян грейфрута */
+    recipe Open Packet of Grapefruit Seeds {
+        GrapefruitBagSeed,
+
+        Result:Grapefruitseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян винограда */
+    recipe Open Packet of Grapes Seeds {
+        GrapesBagSeed,
+
+        Result:Grapesseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян лимона */
+    recipe Open Packet of Lemon Seeds {
+        LemonBagSeed,
+
+        Result:Lemonseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян лайма */
+    recipe Open Packet of Lime Seeds {
+        LimeBagSeed,
+
+        Result:Limeseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян манго */
+    recipe Open Packet of Mango Seeds {
+        MangoBagSeed,
+
+        Result:Mangoseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян апельсина */
+    recipe Open Packet of Orange Seeds {
+        OrangeBagSeed,
+
+        Result:Orangeseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян персика */
+    recipe Open Packet of Peach Seeds {
+        PeachBagSeed,
+
+        Result:Peachseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян груши */
+    recipe Open Packet of Pear Seeds {
+        PearBagSeed,
+
+        Result:Pearseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян ананаса */
+    recipe Open Packet of Pineapple Seeds {
+        PineappleBagSeed,
+
+        Result:Pineappleseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена авокадо */
+    recipe Open Packet of Avocado Seeds {
+        AvocadoBagSeed,
+
+        Result:Avocadoseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена кукурузы */
+    recipe Open Packet of Corn Seeds {
+        CornBagSeed,
+
+        Result:Cornseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена баклажана */
+    recipe Open Packet of Eggplant Seeds {
+        EggplantBagSeed,
+
+        Result:Eggplantseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена лука-порей */
+    recipe Open Packet of Leek Seeds {
+        LeekBagSeed,
+
+        Result:Leekseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена салата */
+    recipe Open Packet of Lettuce Seeds {
+        LettuceBagSeed,
+
+        Result:Lettuceseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена лука */
+    recipe Open Packet of Onion Seeds {
+        OnionBagSeed,
+
+        Result:Onionseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена перца */
+    recipe Open Packet of Pepper Seeds {
+        PepperBagSeed,
+
+        Result:Pepperseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена арбуза */
+    recipe Open Packet of Watermelon Seeds {
+        WatermelonBagSeed,
+
+        Result:Watermelonseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена кабачков */
+    recipe Open Packet of Zucchini Seeds {
+        ZucchiniBagSeed,
+
+        Result:Zucchiniseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян чая */
+    recipe Open Packet of Tea Seeds {
+        TeaBagSeed,
+
+        Result:Teaseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+    /* пачка семян кофе */
+    recipe Open Packet of Coffee Seeds {
+        CoffeeBagSeed,
+
+        Result:Coffeeseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+    /* пачка семян пшеницы */
+    recipe Open Packet of Wheat Seeds {
+        WheatBagSeed,
+
+        Result:WheatGrain=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян подсолнуха */
+    recipe Open Packet of SunFlower Seeds {
+        SunFlowerBagSeed,
+
+        Result:SunflowerSeeds=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян арахиса */
+    recipe Open Packet of Peanut Seeds {
+        PeanutBagSeed,
+
+        Result:Peanutseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян яблоки */
+    recipe Put Apple Seeds in Packet {
+        Appleseed=50,
+
+        Result:AppleBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян банана */
+    recipe Put Banana Seeds in Packet {
+        Bananaseed=50,
+
+        Result:BananaBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена черники */
+    recipe Put BerryBlack Seeds in Packet {
+        BerryBlackseed=50,
+
+        Result:BerryBlackBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* семена смородины */
+    recipe Put BerryBlue Seeds in Packet {
+        BerryBlueseed=50,
+
+        Result:BerryBlueBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян вишни */
+    recipe Put Cherry Seeds in Packet {
+        Cherryseed=50,
+
+        Result:CherryBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян грейфрута */
+    recipe Put Grapefruit Seeds in Packet {
+        Grapefruitseed=50,
+
+        Result:GrapefruitBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян винограда */
+    recipe Put Grapes Seeds in Packet {
+        Grapesseed=50,
+
+        Result:GrapesBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян лимона */
+    recipe Put Lemon Seeds in Packet {
+        Lemonseed=50,
+
+        Result:LemonBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян лайма */
+    recipe Put Lime Seeds in Packet {
+        Limeseed=50,
+
+        Result:LimeBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян манго */
+    recipe Put Mango Seeds in Packet {
+        Mangoseed=50,
+
+        Result:MangoBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян апельсина */
+    recipe Put Orange Seeds in Packet {
+        Orangeseed=50,
+
+        Result:OrangeBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян персика */
+    recipe Put Peach Seeds in Packet {
+        Peachseed=50,
+
+        Result:PeachBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян груши */
+    recipe Put Pear Seeds in Packet {
+        Pearseed=50,
+
+        Result:PearBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян ананаса */
+    recipe Put Pineapple Seeds in Packet {
+        Pineappleseed=50,
+
+        Result:PineappleBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян авокадо */
+    recipe Put Avocado Seeds in Packet {
+        Avocadoseed=50,
+
+        Result:AvocadoBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян кукурузы */
+    recipe Put Corn Seeds in Packet {
+        Cornseed=50,
+
+        Result:CornBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян баклажана */
+    recipe Put Eggplant Seeds in Packet {
+        Eggplantseed=50,
+
+        Result:EggplantBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян лука-порей */
+    recipe Put Leek Seeds in Packet {
+        Leekseed=50,
+
+        Result:LeekBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян салата */
+    recipe Put Lettuce Seeds in Packet {
+        Lettuceseed=50,
+
+        Result:LettuceBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян лука */
+    recipe Put Onion Seeds in Packet {
+        Onionseed=50,
+
+        Result:OnionBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян перца */
+    recipe Put Pepper Seeds in Packet {
+        Pepperseed=50,
+
+        Result:PepperBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян арбуза */
+    recipe Put Watermelon Seeds in Packet {
+        Watermelonseed=50,
+
+        Result:WatermelonBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян кабачков */   
+    recipe Put Zucchini Seeds in Packet {
+        Zucchiniseed=50,
+
+        Result:ZucchiniBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян чая */
+    recipe Put Tea Seeds in Packet {
+        Teaseed=50,
+
+        Result:TeaBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+    /* пачка семян кофе */
+    recipe Put Coffee Seeds in Packet {
+        Coffeeseed=50,
+
+        Result:CoffeeBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян пшеницы */
+    recipe Put Wheat Seeds in Packet {
+        WheatGrain=50,
+
+        Result:WheatBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян подсолнуха */
+    recipe Put SunFlower Seeds in Packet {
+        SunflowerSeeds=50,
+
+        Result:SunFlowerBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян арахиса */
+    recipe Put Peanut Seeds in Packet {
+        Peanutseed=50,
+
+        Result:PeanutBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+}

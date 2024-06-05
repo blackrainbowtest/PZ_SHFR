@@ -1,0 +1,94 @@
+module SHFR {
+    imports { Base }
+    
+    /* создание чайнего пакетика */
+    recipe Make Tea Bag {
+        TeaLeaves=15,
+        keep MortarPestle,
+        keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/SharpedStone,
+        Paperclip,
+        Thread=5,
+        SheetPaper2/PaperNapkins/PaperBagJays/PaperBagSpiffo,
+
+        Result:Teabag2,
+        Time:80.0,
+        NeedToBeLearn:false,
+        OnGiveXP:Recipe.OnGiveXP.SHFRCooking3,
+        CanBeDoneFromFloor:false,
+        StopOnWalk:false,
+        Sound:MakePlaster,
+        Category:Cooking,
+        AnimNode:Disassemble,
+    }
+
+    /* создание кофейнего пакетика */
+    recipe Make Coffee
+    {
+        keep MortarPestle,
+        CoffeeBeansRoasted=15,
+        Plasticbag/Tote/Garbagebag,
+
+        Result:Coffee2,
+        Time:80.0,
+        NeedToBeLearn:false,
+        OnGiveXP:Recipe.OnGiveXP.SHFRCooking3,
+        CanBeDoneFromFloor:false,
+        StopOnWalk:false,
+        Sound:MakePlaster,
+        Category:Cooking,
+        AnimNode:Disassemble,
+    }
+
+    /* создание мешка с мукой */
+    recipe Make Flour From Wheat Grain
+    {
+        keep MortarPestle,
+        WheatGrain=60,
+        Base.EmptySandbag,
+
+        Result:Flour,
+        Time:180.0,
+        NeedToBeLearn:false,
+        OnGiveXP:Recipe.OnGiveXP.SHFRCooking3,
+        CanBeDoneFromFloor:false,
+        StopOnWalk:false,
+        Sound:MakePlaster,
+        Category:Cooking,
+        AnimNode:Disassemble,
+    }
+
+    /* создание растительного масла */
+    recipe Make OilVegetable From SunflowerSeeds
+    {
+        keep MortarPestle,
+        SunflowerSeeds=30,
+        EmptyPopBottle/WaterBottleEmpty,
+
+        Result:OilVegetable,
+        Time:180.0,
+        NeedToBeLearn:false,
+        OnGiveXP:Recipe.OnGiveXP.SHFRCooking3,
+        CanBeDoneFromFloor:false,
+        StopOnWalk:false,
+        Sound:MakePlaster,
+        Category:Cooking,
+        AnimNode:Disassemble,
+    }
+
+    /* создание попкорна */
+    recipe Make Popcorn From Corn
+    {
+        Corn=5,
+        Garbagebag/Lunchbag/Plasticbag/Tote,
+
+        Result:Popcorn,
+        Time:180.0,
+        NeedToBeLearn:false,
+        OnGiveXP:Recipe.OnGiveXP.SHFRCooking3,
+        CanBeDoneFromFloor:false,
+        StopOnWalk:false,
+        Sound:GetingSeeds,
+        Category:Cooking,
+        AnimNode:Disassemble,
+    }
+}

@@ -1,0 +1,39 @@
+module SHFR {
+    imports { Base }
+
+    /* пачка семян арахиса */
+    item PeanutBagSeed {
+        DisplayCategory                 = Gardening,
+        Type                            = Normal,
+        DisplayName                     = Peanut Seeds Packet,
+        Icon                            = SHFR_Bag_PeanutSeedBag,
+        Weight                          = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = PeanutSeedBag_Ground,
+    }
+
+    /* семена арахиса */
+    item Peanutseed {
+        DisplayCategory                 = Gardening,
+        Type                            = Normal,
+        DisplayName                     = Peanut Seeds,
+        Icon                            = SHFR_Seed_PeanutSeeds,
+        Weight                          = 0.009,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = PeanutSeeds_Ground,
+    }
+
+    /* семена арахиса */
+    model PeanutSeeds_Ground {
+        mesh            = WorldItems/Seeds,
+        texture         = WorldItems/SHFR_Seed_PeanutSeeds_Ground,
+        scale           = 0.5,
+    }
+
+    /* пачка семян орахиса */
+    model PeanutSeedBag_Ground {
+        mesh            = WorldItems/SeedPacket,
+        texture         = WorldItems/SHFR_Bag_PeanutSeedBag_Ground,
+        scale           = 0.5,
+    }
+}

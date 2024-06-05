@@ -1,0 +1,435 @@
+module SHFR {
+    imports { Base }
+
+    /* семена яблоки - 4 */
+    item Appleseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Apple Seeds,
+        Icon				        = SHFR_Seed_AppleSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = AppleSeeds_Ground,
+    }
+
+    /* семена банана - 4 */
+    item Bananaseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Banana Seeds,
+        Icon				        = SHFR_Seed_BananaSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = BananaSeeds_Ground,
+    }
+
+    /* семена вишни - 6 */
+    item Cherryseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Cherry Seeds,
+        Icon				        = SHFR_Seed_CherrySeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = CherrySeeds_Ground,
+    }
+
+    /* семена грейфрута - 4 */
+    item Grapefruitseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Grapefruit Seeds,
+        Icon				        = SHFR_Seed_GrapefruitSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = GrapefruitSeeds_Ground,
+    }
+    
+    /* семена винограда - 6 */
+    item Grapesseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Grapes Seeds,
+        Icon				        = SHFR_Seed_GrapesSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = GrapesSeeds_Ground,
+    }
+
+    /* семена лимона - 4 */
+    item Lemonseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Lemon Seeds,
+        Icon				        = SHFR_Seed_LemonSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = LemonSeeds_Ground,
+    }
+    
+    /* семена лайма - 4 */
+    item Limeseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Lime Seeds,
+        Icon				        = SHFR_Seed_LimeSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = LimeSeeds_Ground,
+    }
+
+    /* семена манго - 4 */
+    item Mangoseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Mango Seeds,
+        Icon				        = SHFR_Seed_MangoSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = MangoSeeds_Ground,
+    }
+    
+    /* семена апельсина - 4 */
+    item Orangeseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Orange Seeds,
+        Icon				        = SHFR_Seed_OrangeSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = OrangeSeeds_Ground,
+    }
+
+    /* семена персика - 4 */
+    item Peachseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Peach Seeds,
+        Icon				        = SHFR_Seed_PeachSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = PeachSeeds_Ground,
+    }
+
+    /* семена груши - 4 */
+    item Pearseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Pear Seeds,
+        Icon				        = SHFR_Seed_PearSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = PearSeeds_Ground,
+    }
+
+    /* семена ананаса - 4 */
+    item Pineappleseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Pineapple Seeds,
+        Icon				        = SHFR_Seed_PineappleSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = PineappleSeeds_Ground,
+    }
+
+    /* пачка семян яблоки */	
+    item AppleBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = Apple Seeds Packet,
+        Icon				            = SHFR_Bag_AppleSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = AppleSeedBag_Ground,
+    }
+
+    /* пачка семян банана */
+    item BananaBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = Banana Seeds Packet,
+        Icon				            = SHFR_Bag_BananaSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = BananaSeedBag_Ground,
+    }
+    
+    /* пачка семян вишни */
+    item CherryBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = Cherry Seeds Packet,
+        Icon				            = SHFR_Bag_CherrySeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = CherrySeedBag_Ground,
+    }
+
+    /* пачка семян грейфрута */
+    item GrapefruitBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = Grapefruit Seeds Packet,
+        Icon				            = SHFR_Bag_GrapefruitSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = GrapefruitSeedBag_Ground,
+    }
+
+    /* пачка семян винограда */
+    item GrapesBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = Grapes Seeds Packet,
+        Icon				            = SHFR_Bag_GrapesSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = GrapesSeedBag_Ground,
+    }
+
+    /* пачка семян лимона */
+    item LemonBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = Lemon Seeds Packet,
+        Icon				            = SHFR_Bag_LemonSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = LemonSeedBag_Ground,
+    }
+
+    /* пачка семян лайма */
+    item LimeBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = Lime Seeds Packet,
+        Icon				            = SHFR_Bag_LimeSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = LimeSeedBag_Ground,
+    }
+
+    /* пачка семян манго */
+    item MangoBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = Mango Seeds Packet,
+        Icon				            = SHFR_Bag_MangoSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = MangoSeedBag_Ground,
+    }
+
+    /* пачка семян апельсина */
+    item OrangeBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = Orange Seeds Packet,
+        Icon				            = SHFR_Bag_OrangeSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = OrangeSeedBag_Ground,
+    }
+
+    /* пачка семян персика */
+    item PeachBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = Peach Seeds Packet,
+        Icon				            = SHFR_Bag_PeachSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = PeachSeedBag_Ground,
+    }
+
+    /* пачка семян груши */
+    item PearBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = Pear Seeds Packet,
+        Icon				            = SHFR_Bag_PearSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = PearSeedBag_Ground,
+    }
+
+    /* пачка семян ананаса */
+    item PineappleBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = Pineapple Seeds Packet,
+        Icon				            = SHFR_Bag_PineappleSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = PineappleSeedBag_Ground,
+    }
+
+    /* семена яблоки */
+    model AppleSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_AppleSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена банана */
+    model BananaSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_BananaSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена вишни */
+    model CherrySeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_CherrySeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена грейфрута */
+    model GrapefruitSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_GrapefruitSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена винограда */
+    model GrapesSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_GrapesSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена лимона */
+    model LemonSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_LemonSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена лайма */
+    model LimeSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_LimeSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена манго */
+    model MangoSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_MangoSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена апельсина */
+    model OrangeSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_OrangeSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена персика */
+    model PeachSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_PeachSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена груши */
+    model PearSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_PearSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена ананаса */
+    model PineappleSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_PineappleSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян яблоки */
+    model AppleSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_AppleSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян банана */
+    model BananaSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_BananaSeedBag_Ground,
+        scale		= 0.5,
+    }
+        
+    /* пачка семян вишни */
+    model CherrySeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_CherrySeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян грейфрута */
+    model GrapefruitSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_GrapefruitSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян винограда */
+    model GrapesSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_GrapesSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян лимона */
+    model LemonSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_LemonSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян лайма */
+    model LimeSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_LimeSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян манго */
+    model MangoSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_MangoSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян апельсина */
+    model OrangeSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_OrangeSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян персика */
+    model PeachSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_PeachSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян груши */
+    model PearSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_PearSeedBag_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян ананаса */
+    model PineappleSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_PineappleSeedBag_Ground,
+        scale		= 0.5,
+    }
+}

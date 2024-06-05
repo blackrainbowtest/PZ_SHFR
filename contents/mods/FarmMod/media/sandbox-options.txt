@@ -1,0 +1,19 @@
+VERSION = 1,
+
+option SHFR.WeatherImpact
+{
+	type = boolean,
+	default = false,
+
+	page = SHFR,
+	translation = SHFR_WeatherImpactGeneral,
+}
+
+option SHFR.SeedsCount
+{
+	type = enum,
+	default = 3,
+	numValues = 5,
+	page = SHFR,
+	translation = SHFR_SeedsCountGeneral,
+}

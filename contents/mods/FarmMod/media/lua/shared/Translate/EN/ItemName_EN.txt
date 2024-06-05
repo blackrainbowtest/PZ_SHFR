@@ -1,0 +1,74 @@
+ItemName_EN = {
+/*___________________ПРЕДМЕТЫ: СЕМЕНА________________________*/
+    ItemName_SHFR.Appleseed          = "Apple seeds",
+    ItemName_SHFR.Bananaseed         = "Banana seeds",
+    ItemName_SHFR.Cherryseed         = "Cherry seeds",
+    ItemName_SHFR.Grapefruitseed     = "Grapefruit seeds",
+    ItemName_SHFR.Grapesseed         = "Grapes seeds",
+    ItemName_SHFR.Lemonseed          = "Lemon seeds",
+    ItemName_SHFR.Limeseed           = "Lime seeds",
+    ItemName_SHFR.Mangoseed          = "Mango seeds",
+    ItemName_SHFR.Orangeseed         = "Orange seeds",
+    ItemName_SHFR.Peachseed          = "Peach seeds",
+    ItemName_SHFR.Pearseed           = "Pear seeds",
+    ItemName_SHFR.Pineappleseed      = "Pineapple seeds",
+
+    ItemName_SHFR.Avocadoseed        = "Avocado seeds",
+    ItemName_SHFR.Cornseed           = "Corn seeds",
+    ItemName_SHFR.Eggplantseed       = "Eggplant seeds",
+    ItemName_SHFR.Leekseed           = "Leek seeds",
+    ItemName_SHFR.Lettuceseed        = "Lettuce seeds",
+    ItemName_SHFR.Onionseed          = "Onion seeds",
+    ItemName_SHFR.Pepperseed         = "Pepper seeds",
+    ItemName_SHFR.Watermelonseed     = "Watermelon seeds",
+    ItemName_SHFR.Zucchiniseed       = "Zucchini seeds",
+
+    ItemName_SHFR.BerryBlackseed     = "Berry Black seeds",
+    ItemName_SHFR.BerryBlueseed      = "Berry Blue seeds",
+
+    ItemName_SHFR.Teaseed            = "Tea seeds",
+    ItemName_SHFR.Coffeeseed         = "Coffee seeds",
+
+    ItemName_SHFR.Peanutseed         = "Peanuts seeds",
+/*___________________ПРЕДМЕТЫ: ПАЧКИ СЕМЯН___________________*/
+    ItemName_SHFR.AppleBagSeed       = "Apple seed packet",
+    ItemName_SHFR.BananaBagSeed      = "Banana seed packet",
+    ItemName_SHFR.CherryBagSeed      = "Cherry seed packet",
+    ItemName_SHFR.GrapefruitBagSeed  = "Grapefruit seed packet",
+    ItemName_SHFR.GrapesBagSeed      = "Grapes seed packet",
+    ItemName_SHFR.LemonBagSeed       = "Lemon seed packet",
+    ItemName_SHFR.LimeBagSeed        = "Lime seed packet",
+    ItemName_SHFR.MangoBagSeed       = "Mango seed packet",
+    ItemName_SHFR.OrangeBagSeed      = "Orange seed packet",
+    ItemName_SHFR.PeachBagSeed       = "APeachvoPeachcado seed packet",
+    ItemName_SHFR.PearBagSeed        = "Pear seed packet",
+    ItemName_SHFR.PineappleBagSeed   = "Pineapple seed packet",
+
+    ItemName_SHFR.AvocadoBagSeed     = "Avocado seed packet",
+    ItemName_SHFR.CornBagSeed        = "Corn seed packet",
+    ItemName_SHFR.EggplantBagSeed    = "Eggplant seed packet",
+    ItemName_SHFR.LeekBagSeed        = "Leek seed packet",
+    ItemName_SHFR.LettuceBagSeed     = "Lettuce seed packet",
+    ItemName_SHFR.OnionBagSeed       = "Onion seed packet",
+    ItemName_SHFR.WatermelonBagSeed  = "Watermelon seed packet",
+    ItemName_SHFR.PepperBagSeed      = "Pepper seed packet",
+    ItemName_SHFR.ZucchiniBagSeed    = "Zucchini seed packet",
+
+    ItemName_SHFR.BerryBlackBagSeed  = "BerryBlack seed packet",
+    ItemName_SHFR.BerryBlueBagSeed   = "BerryBlue seed packet",
+
+    ItemName_SHFR.TeaBagSeed         = "Tea seed packet",
+    ItemName_SHFR.CoffeeBagSeed      = "Coffee seed packet",
+    
+    ItemName_SHFR.WheatBagSeed       = "Wheat seed packet",
+    ItemName_SHFR.SunFlowerBagSeed   = "Sunflower seed packet",
+
+    ItemName_SHFR.PeanutBagSeed      = "Peanuts seed packet",
+/*___________________ПРЕДМЕТЫ: НОВЫЕ_________________________*/
+    ItemName_SHFR.TeaLeaves          = "Tea Leaves",
+    ItemName_SHFR.CoffeeBeans        = "Coffee Beans",
+    ItemName_SHFR.CoffeeBeansRoasted = "Coffee Beans Roasted",
+    ItemName_SHFR.SunFlower          = "Sunflower",
+    ItemName_SHFR.WheatGrain         = "Wheat frains",
+    ItemName_SHFR.Wheat              = "Wheat",
+}

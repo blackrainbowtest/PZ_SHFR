@@ -1,0 +1,110 @@
+Recipes_EN {
+/*___________________РЕЦЕПТЫ_ДЛЯ_ОТКРЫТИЯ_ПАЧЕК___________________*/
+    Recipe_Open_Packet_of_Apple_Seeds           = "Open packet of apple seeds",
+    Recipe_Open_Packet_of_Banana_Seeds          = "Open packet of banana seeds",
+    Recipe_Open_Packet_of_Cherry_Seeds          = "Open packet of cherry seeds",
+    Recipe_Open_Packet_of_Grapefruit_Seeds      = "Open packet of grapefruit seeds",
+    Recipe_Open_Packet_of_Grapes_Seeds          = "Open packet of grapes seeds",
+    Recipe_Open_Packet_of_Lemon_Seeds           = "Open packet of lemon seeds",
+    Recipe_Open_Packet_of_Lime_Seeds            = "Open packet of lime seeds",
+    Recipe_Open_Packet_of_Mango_Seeds           = "Open packet of mango seeds",
+    Recipe_Open_Packet_of_Orange_Seeds          = "Open packet of orange seeds",
+    Recipe_Open_Packet_of_Peach_Seeds           = "Open packet of peach seeds",
+    Recipe_Open_Packet_of_Pear_Seeds            = "Open packet of pear seeds",
+    Recipe_Open_Packet_of_Pineapple_Seeds       = "Open packet of pineapple seeds",
+
+    Recipe_Open_Packet_of_Avocado_Seeds         = "Open packet of avocado seeds",
+    Recipe_Open_Packet_of_Corn_Seeds            = "Open packet of corn seeds",
+    Recipe_Open_Packet_of_Eggplant_Seeds        = "Open packet of eggplant seeds",
+    Recipe_Open_Packet_of_Leek_Seeds            = "Open packet of leek seeds",
+    Recipe_Open_Packet_of_Lettuce_Seeds         = "Open packet of lettuce seeds",
+    Recipe_Open_Packet_of_Onion_Seeds           = "Open packet of onion seeds",
+    Recipe_Open_Packet_of_Pepper_Seeds          = "Open packet of pepper seeds",
+    Recipe_Open_Packet_of_Watermelon_Seeds      = "Open packet of watermelon seeds",
+    Recipe_Open_Packet_of_Zucchini_Seeds        = "Open packet of zucchini seeds",
+
+    Recipe_Open_Packet_of_BerryBlack_Seeds      = "Open packet of berry black seeds",
+    Recipe_Open_Packet_of_BerryBlue_Seeds       = "Open packet of berry blue seeds",
+
+    Recipe_Open_Packet_of_Tea_Seeds             = "Open packet of tea seeds",
+    Recipe_Open_Packet_of_Coffee_Seeds          = "Open packet of coffee seeds",
+
+    Recipe_Open_Packet_of_Wheat_Seeds           = "Open packet of wheat seeds",
+    Recipe_Open_Packet_of_SunFlower_Seeds       = "Open packet of sunflower seeds",
+
+    Recipe_Open_Packet_of_Peanut_Seeds          = "Open packet of paunts seeds",
+/*___________________РЕЦЕПТЫ_ДЛЯ_ЗАКРЫТИЯ_ПАЧЕК___________________*/
+    Recipe_Put_Apple_Seeds_in_Packet           = "Put apple seeds in the packet",
+    Recipe_Put_Banana_Seeds_in_Packet          = "Put banana seeds in the packet",
+    Recipe_Put_Cherry_Seeds_in_Packet          = "Put cherry seeds in the packet",
+    Recipe_Put_Grapefruit_Seeds_in_Packet      = "Put grapefruit seeds in the packet",
+    Recipe_Put_Grapes_Seeds_in_Packet          = "Put grapes seeds in the packet",
+    Recipe_Put_Lemon_Seeds_in_Packet           = "Put lemon seeds in the packet",
+    Recipe_Put_Lime_Seeds_in_Packet            = "Put lime seeds in the packet",
+    Recipe_Put_Mango_Seeds_in_Packet           = "Put mango seeds in the packet",
+    Recipe_Put_Orange_Seeds_in_Packet          = "Put orange seeds in the packet",
+    Recipe_Put_Peach_Seeds_in_Packet           = "Put peach seeds in the packet",
+    Recipe_Put_Pear_Seeds_in_Packet            = "Put pear seeds in the packet",
+    Recipe_Put_Pineapple_Seeds_in_Packet       = "Put pineapple seeds in the packet",
+
+    Recipe_Put_Avocado_Seeds_in_Packet          = "Put avocado seeds in the packet",
+    Recipe_Put_Corn_Seeds_in_Packet             = "Put corn seeds in the packet",
+    Recipe_Put_Eggplant_Seeds_in_Packet         = "Put eggplant seeds in the packet",
+    Recipe_Put_Leek_Seeds_in_Packet             = "Put leek seeds in the packet",
+    Recipe_Put_Lettuce_Seeds_in_Packet          = "Put lettuce seeds in the packet",
+    Recipe_Put_Onion_Seeds_in_Packet            = "Put onion seeds in the packet",
+    Recipe_Put_Pepper_Seeds_in_Packet           = "Put pepper seeds in the packet",
+    Recipe_Put_Watermelon_Seeds_in_Packet       = "Put watermelon seeds in the packet",
+    Recipe_Put_Zucchini_Seeds_in_Packet         = "Put zucchini seeds in the packet",
+
+    Recipe_Put_BerryBlack_Seeds_in_Packet      = "Put berry black seeds in the packet",
+    Recipe_Put_BerryBlue_Seeds_in_Packet       = "Put berry blue seeds in the packet",
+
+    Recipe_Put_Tea_Seeds_in_Packet              = "Put tea seeds in the packet",
+    Recipe_Put_Coffee_Seeds_in_Packet           = "Put coffee seeds in the packet",
+    
+    Recipe_Put_Wheat_Seeds_in_Packet            = "Put wheat seeds in the packet",
+    Recipe_Put_SunFlower_Seeds_in_Packet        = "Put sunflower seeds in the packet",
+
+    Recipe_Put_Peanut_Seeds_in_Packet           = "Put paunts seeds in the packet",
+/*___________________РЕЦЕПТЫ_ДЛЯ_ПОЛУЧЕНИЯ_СЕМЯН__________________*/
+    Recipe_Claim_Apple_Seeds                    = "Get seeds",
+    Recipe_Claim_Banana_Seeds                   = "Get seeds",
+    Recipe_Claim_Cherry_Seeds                   = "Get seeds",
+    Recipe_Claim_Grapefruit_Seeds               = "Get seeds",
+    Recipe_Claim_Grapes_Seeds                   = "Get seeds",
+    Recipe_Claim_Lemon_Seeds                    = "Get seeds",
+    Recipe_Claim_Lime_Seeds                     = "Get seeds",
+    Recipe_Claim_Mango_Seeds                    = "Get seeds",
+    Recipe_Claim_Orange_Seeds                   = "Get seeds",
+    Recipe_Claim_Peach_Seeds                    = "Get seeds",
+    Recipe_Claim_Pear_Seeds                     = "Get seeds",
+    Recipe_Claim_Pineapple_Seeds                = "Get seeds",
+
+    Recipe_Claim_Avocado_Seeds                  = "Get seeds",
+    Recipe_Claim_Corn_Seeds                     = "Get seeds",
+    Recipe_Claim_Eggplant_Seeds                 = "Get seeds",
+    Recipe_Claim_Leek_Seeds                     = "Get seeds",
+    Recipe_Claim_Lettuce_Seeds                  = "Get seeds",
+    Recipe_Claim_Onion_Seeds                    = "Get seeds",
+    Recipe_Claim_Pepper_Seeds                   = "Get seeds",
+    Recipe_Claim_Watermelon_Seeds               = "Get seeds",
+    Recipe_Claim_Zucchini_Seeds                 = "Get seeds",
+
+    Recipe_Claim_BerryBlack_Seeds               = "Get seeds",
+    Recipe_Claim_BerryBlue_Seeds                = "Get seeds",
+
+    Recipe_Claim_Tea_Seeds                      = "Get seeds",
+    Recipe_Claim_Coffee_Seeds                   = "Get seeds",
+
+    Recipe_Claim_SunFlower_Seeds                = "Get seeds",
+    Recipe_Claim_Wheat_Seeds                    = "Get seeds",
+
+    Recipe_Claim_Peanut_Seeds                   = "Get seeds",
+/*_________________РЕЦЕПТЫ_ДЛЯ_СОЗДАНИЯ_ПРЕДМЕТОВ_________________*/
+        Recipe_Make_Tea_Bag                     = "Make tea bag",
+        Recipe_Make_Coffee                      = "Make coffee",
+        Recipe_Make_Flour_From_Wheat_Grain      = "Make flour",
+        Recipe_Make_OilVegetable_From_SunflowerSeeds = "Make oil vegetable",
+        Recipe_Make_Popcorn_From_Corn           = "Make popcorn",
+}

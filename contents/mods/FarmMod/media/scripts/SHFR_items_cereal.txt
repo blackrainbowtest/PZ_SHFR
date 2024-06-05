@@ -1,0 +1,114 @@
+module SHFR {
+    imports { Base }
+
+    /* пачка семян пшеницы */
+    item WheatBagSeed{
+        DisplayCategory                 = Gardening,
+        Type                            = Normal,
+        DisplayName                     = Wheat Seeds Packet,
+        Icon                            = SHFR_Bag_WheatSeedBag,
+        Weight                          = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = WheatSeedBag_Ground,
+    }
+        
+    /* пачка семян подсолнуха */
+    item SunFlowerBagSeed{
+        DisplayCategory                 = Gardening,
+        Type                            = Normal,
+        DisplayName                     = SunFlower Seeds Packet,
+        Icon                            = SHFR_Bag_SunFlowerSeedBag,
+        Weight                          = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = SunFlowerSeedBag_Ground,
+    }
+
+    /* зерно пщеницы */    
+    item WheatGrain {
+        DisplayCategory                 = Food,
+        Type                            = Food,
+        DisplayName                     = Wheat Grain,
+        Icon                            = SHFR_new_WheatGrain,
+        Weight                          = 0.02,
+        HungerChange                    = -8,
+        Calories                        = 5,
+        Carbohydrates                   = 0,
+        Lipids                          = 0,
+        Proteins                        = 0,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = WheatGrain_Ground,
+        IsCookable                      = false,
+        CustomEatSound                  = Eating,
+    }
+        
+    /* пщеница */    
+    item Wheat {
+        DisplayCategory                 = Food,
+        Type                            = Food,
+        DisplayName                     = Wheat,
+        Icon                            = SHFR_new_Wheat,
+        Weight                          = 0.2,
+        HungerChange                    = -80,
+        Calories                        = 50,
+        Carbohydrates                   = 0,
+        Lipids                          = 0,
+        Proteins                        = 0,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = Wheat_Ground,
+        IsCookable                      = false,
+        CustomEatSound                  = Eating,
+    }
+
+    /* Подсолнух */    
+    item SunFlower {
+        DisplayCategory                 = Food,
+        Type                            = Food,
+        DisplayName                     = Sun Flower,
+        Icon                            = SHFR_new_SunFlower,
+        Weight                          = 0.6,
+        HungerChange                    = -50,
+        Calories                        = 755,
+        Carbohydrates                   = 70.6,
+        Lipids                          = 0,
+        Proteins                        = 21.7,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = SunFlower_Ground,
+        IsCookable                      = false,
+        CustomEatSound                  = EatingMushy,
+    }
+
+    /* пачка семян пшеницы */
+    model WheatSeedBag_Ground {
+        mesh            = WorldItems/SeedPacket,
+        texture         = WorldItems/SHFR_Bag_WheatSeeds_Ground,
+        scale           = 0.5,
+    }
+
+    /* пачка семян подсолнуха */
+    model SunFlowerSeedBag_Ground {
+        mesh            = WorldItems/SeedPacket,
+        texture         = WorldItems/SHFR_Bag_SunFlowerSeeds_Ground,
+        scale           = 0.5,
+    }
+
+    /* зерно пщеницы */
+    model WheatGrain_Ground {
+        mesh            = WorldItems/ChocolateCoveredCoffeeBeans,
+        texture         = WorldItems/SHFR_item_WheatGrain,
+        scale           = 0.5,
+    }
+
+    /* пщеница */
+    model Wheat_Ground {
+        mesh            = WorldItems/Leek,
+        texture         = WorldItems/SHFR_item_Wheat,
+        scale           = 0.3,
+    }
+
+    /* подсолнух */
+    model SunFlower_Ground {
+        mesh            = WorldItems/GrapeLeaves,
+        texture         = WorldItems/SHFR_item_SunFlower,
+        scale           = 0.5,
+    }
+}

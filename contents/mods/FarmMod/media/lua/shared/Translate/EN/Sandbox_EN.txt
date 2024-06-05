@@ -1,0 +1,14 @@
+Sandbox_EN = {
+    Sandbox_SHFR = "FARMING MOD SETTINGS",
+
+    Sandbox_SHFR_SeedsCountGeneral = "SEEDS SPAWN SETTINGS: ",
+    Sandbox_SHFR_SeedsCountGeneral_tooltip = "Sets the abundance of spawn packs of seeds in the game",
+    Sandbox_SHFR_SeedsCountGeneral_option1 = "Very low",
+    Sandbox_SHFR_SeedsCountGeneral_option2 = "Low",
+    Sandbox_SHFR_SeedsCountGeneral_option3 = "Normal",
+    Sandbox_SHFR_SeedsCountGeneral_option4 = "High",
+    Sandbox_SHFR_SeedsCountGeneral_option5 = "Very High",
+
+    Sandbox_SHFR_WeatherImpactGeneral = "WEATHER IMPACT SETTINGS: ",
+    Sandbox_SHFR_WeatherImpactGeneral_tooltip = "Certain plants will not grow in cold weather",
+}

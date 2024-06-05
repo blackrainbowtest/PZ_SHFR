@@ -1,0 +1,37 @@
+Farming_EN = {
+
+  Farming_Avocado = "Avocado",
+  Farming_Corn = "Corn",
+  Farming_Eggplant = "Eggplant",
+  Farming_Leek = "Leek",
+  Farming_Lettuce = "Lettuce",
+  Farming_Onion = "Onion",
+  Farming_Pepper = "Pepper",
+  Farming_Watermelon = "Watermelon",
+  Farming_Zucchini = "Zucchini",
+
+  Farming_Apple = "Apple",
+  Farming_Banana = "Banana",
+  Farming_Cherry = "Cherry",
+  Farming_Grapefruit = "Grapefruit",
+  Farming_Grapes = "Grapes",
+  Farming_Lemon = "Lemon",
+  Farming_Lime = "Lime",
+  Farming_Mango = "Mango",
+  Farming_Orange = "Orange",
+  Farming_Peach = "Peach",
+  Farming_Pear = "Pear",
+  Farming_Pineapple = "Pineapple",
+
+  Farming_BerryBlack = "Berry Black",
+  Farming_BerryBlue = "Berry Blue",
+
+  Farming_TeaLeaves = "Tea Leaves",
+  Farming_CoffeeBeans = "Coffee Beans",
+  
+  Farming_SunFlower = "Sunflower",
+  Farming_Wheat = "Wheat",
+  
+  Farming_Peanuts = "Peanuts",
+
+}

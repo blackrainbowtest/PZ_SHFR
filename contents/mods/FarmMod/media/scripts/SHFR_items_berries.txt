@@ -1,0 +1,53 @@
+module SHFR {
+    imports { Base }
+
+    /* пачка семян черники */
+    item BerryBlackBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = BerryBlack Seeds Packet,
+        Icon				            = SHFR_Bag_BerryBlackSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = BerryBlackSeedBag_Ground,
+    }
+
+    /* пачка семян смородины */
+    item BerryBlueBagSeed {
+        DisplayCategory                 = Gardening,
+        Type				            = Normal,
+        DisplayName			            = BerryBlue Seeds Packet,
+        Icon				            = SHFR_Bag_BerryBlueSeedBag,
+        Weight				            = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = BerryBlueSeedBag_Ground,
+    }
+
+    /* семена черники */
+    model BerryBlackSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_BerryBlackSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* семена смородины */
+    model BerryBlueSeeds_Ground {
+        mesh		= WorldItems/Seeds,
+        texture		= WorldItems/SHFR_Seed_BerryBlueSeeds_Ground,
+        scale		= 0.5,
+    }
+
+    /* пачка семян черники */
+    model BerryBlackSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_BerryBlackSeedBag_Ground,
+        scale		= 0.5,
+    }
+    
+    /* пачка семян смородины */
+    model BerryBlueSeedBag_Ground {
+        mesh		= WorldItems/SeedPacket,
+        texture		= WorldItems/SHFR_Bag_BerryBlueSeedBag_Ground,
+        scale		= 0.5,
+    }
+}
