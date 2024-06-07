@@ -1,8 +1,5 @@
 # Zomboid Farm mod
 
-
-# Zomboid Farm Mod
-
 <details>
 <summary>
     
