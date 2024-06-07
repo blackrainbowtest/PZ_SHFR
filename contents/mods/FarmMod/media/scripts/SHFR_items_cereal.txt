@@ -1,6 +1,24 @@
 module SHFR {
     imports { Base }
 
+    /* зерно пщеницы */    
+    item WheatGrain {
+        DisplayCategory                 = Food,
+        Type                            = Food,
+        DisplayName                     = Wheat Grain,
+        Icon                            = SHFR_new_WheatGrain,
+        Weight                          = 0.02,
+        HungerChange                    = -8,
+        Calories                        = 5,
+        Carbohydrates                   = 0,
+        Lipids                          = 0,
+        Proteins                        = 0,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = WheatGrain_Ground,
+        IsCookable                      = false,
+        CustomEatSound                  = Eating,
+    }
+
     /* пачка семян пшеницы */
     item WheatBagSeed{
         DisplayCategory                 = Gardening,
@@ -21,24 +39,6 @@ module SHFR {
         Weight                          = 0.1,
         SurvivalGear                    = TRUE,
         WorldStaticModel                = SunFlowerSeedBag_Ground,
-    }
-
-    /* зерно пщеницы */    
-    item WheatGrain {
-        DisplayCategory                 = Food,
-        Type                            = Food,
-        DisplayName                     = Wheat Grain,
-        Icon                            = SHFR_new_WheatGrain,
-        Weight                          = 0.02,
-        HungerChange                    = -8,
-        Calories                        = 5,
-        Carbohydrates                   = 0,
-        Lipids                          = 0,
-        Proteins                        = 0,
-        SurvivalGear                    = TRUE,
-        WorldStaticModel                = WheatGrain_Ground,
-        IsCookable                      = false,
-        CustomEatSound                  = Eating,
     }
         
     /* пщеница */    

@@ -1,6 +1,6 @@
 require 'Items/SuburbsDistributions'
 require 'Items/ProceduralDistributions'
-local SHFR_Items = require "Items/PZ_UAZLItemsBags"
+local SHFR_Items = require "Items/SHFR_ItemsSpawn"
 
 -- Переобразует таблицы в одну большую
 function mergeTables(...)

@@ -1,6 +1,28 @@
 module SHFR {
     imports { Base }
 
+    /* семена чая */
+    item Teaseed {
+        DisplayCategory                 = Gardening,
+        Type                            = Normal,
+        DisplayName                     = Tea Seeds,
+        Icon                            = SHFR_Seed_TeaSeeds,
+        Weight                          = 0.009,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = TeaSeeds_Ground,
+    }
+
+    /* семена кофе */
+    item Coffeeseed{
+        DisplayCategory                 = Gardening,
+        Type                            = Normal,
+        DisplayName                     = Coffee Seeds,
+        Icon                            = SHFR_Seed_CoffeeSeeds,
+        Weight                          = 0.009,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = CoffeeSeeds_Ground,
+    }
+
     /* пачка семян чая */    
     item TeaBagSeed {
         DisplayCategory                 = Gardening,

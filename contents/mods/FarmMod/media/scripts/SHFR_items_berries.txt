@@ -1,6 +1,28 @@
 module SHFR {
     imports { Base }
 
+    /* семена черники - 8 */
+    item BerryBlackseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Berry Black Seeds,
+        Icon				        = SHFR_Seed_BerryBlackSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = BerryBlackSeeds_Ground,
+    }
+
+    /* семена смородины - 8 */
+    item BerryBlueseed {
+        DisplayCategory             = Gardening,
+        Type				        = Normal,
+        DisplayName			        = Berry Blue Seeds,
+        Icon				        = SHFR_Seed_BerryBlueSeeds,
+        Weight				        = 0.009,
+        SurvivalGear                = TRUE,
+        WorldStaticModel            = BerryBlueSeeds_Ground,
+    }
+
     /* пачка семян черники */
     item BerryBlackBagSeed {
         DisplayCategory                 = Gardening,

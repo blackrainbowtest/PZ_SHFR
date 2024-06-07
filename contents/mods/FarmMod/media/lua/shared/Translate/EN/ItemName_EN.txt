@@ -40,7 +40,7 @@ ItemName_EN = {
     ItemName_SHFR.LimeBagSeed        = "Lime seed packet",
     ItemName_SHFR.MangoBagSeed       = "Mango seed packet",
     ItemName_SHFR.OrangeBagSeed      = "Orange seed packet",
-    ItemName_SHFR.PeachBagSeed       = "APeachvoPeachcado seed packet",
+    ItemName_SHFR.PeachBagSeed       = "Peach seed packet",
     ItemName_SHFR.PearBagSeed        = "Pear seed packet",
     ItemName_SHFR.PineappleBagSeed   = "Pineapple seed packet",
 
