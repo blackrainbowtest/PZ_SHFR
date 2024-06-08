@@ -71,10 +71,10 @@ function BTSE.Farming:addNewCrop(config)
         config["growSprites"][7] or "vegetation_farming_01_46",
         config["growSprites"][8] or "vegetation_farming_01_47", -- dead
     };
-
+-- Tomorrow check this one
     config["rottenSprite"] = config["rottenSprite"] or farming_vegetableconf["sprite"][config["name"]][8];
-    config["drySprite"] = config["rottenSprite"] or farming_vegetableconf["sprite"][config["name"]][8];
-    config["destroyedSprite"] = config["rottenSprite"] or farming_vegetableconf["sprite"][config["name"]][8];
+    config["drySprite"] = config["drySprite"] or farming_vegetableconf["sprite"][config["name"]][8];
+    config["destroyedSprite"] = config["destroyedSprite"] or farming_vegetableconf["sprite"][config["name"]][8];
 
     config["rotTimeHours"] = config["rotTimeHours"] or 48;
 
