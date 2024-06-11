@@ -98,7 +98,7 @@ module SHFR {
         DaysTotallyRotten               = 28,
         EvolvedRecipe                   = HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
         CustomEatSound                  = EatingCrispy,
-        ReplaceOnCooked                 = SHF.CoffeeBeansRoasted
+        ReplaceOnCooked                 = SHFR.CoffeeBeansRoasted
     }
         
     /* Приготовленные зерна кофе */

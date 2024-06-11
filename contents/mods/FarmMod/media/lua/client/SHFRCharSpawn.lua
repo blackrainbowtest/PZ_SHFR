@@ -12,7 +12,7 @@ end
 local function giveItems()
     if debugItems then
         local player = getSpecificPlayer(0);
-        player:getInventory():AddItem("SHF.PepperBagSeed");
+        player:getInventory():AddItem("SHFR.PepperBagSeed");
     end
 end
 

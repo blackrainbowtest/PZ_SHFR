@@ -324,4 +324,62 @@ module SHFR {
         texture		= WorldItems/SHFR_Bag_ZucchiniSeedBag_Ground,
         scale		= 0.5,
     }
+
+    /* Окра */    
+    item Okra {
+        DisplayCategory                 = Food,
+        Type                            = Food,
+        DisplayName                     = Okra,
+        Icon                            = SHFR_new_Okra,
+        Weight                          = 0.6,
+        HungerChange                    = -5,
+        Calories                        = 33,
+        Carbohydrates                   = 7,
+        Lipids                          = 0,
+        Proteins                        = 2,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = Okra_Ground,
+        BadCold                         = true,
+        BadInMicrowave                  = false,
+        DangerousUncooked               = FALSE,
+        GoodHot                         = true,
+        IsCookable                      = true,
+        RemoveUnhappinessWhenCooked     = true,
+        MinutesToCook                   = 10,
+        MinutesToBurn                   = 60,
+        DaysFresh                       = 5,
+        DaysTotallyRotten               = 18,
+        EvolvedRecipe                   = HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
+        CustomEatSound                  = EatingCrispy,
+        ReplaceOnCooked                 = SHFR.CookedOkra
+    }
+
+    /* Окра */    
+    item CookedOkra {
+        DisplayCategory                 = Food,
+        Type                            = Food,
+        DisplayName                     = Okra,
+        Icon                            = SHFR_new_Okra,
+        Weight                          = 0.6,
+        HungerChange                    = -5,
+        Calories                        = 33,
+        Carbohydrates                   = 7,
+        Lipids                          = 0,
+        Proteins                        = 2,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = Okra_Ground,
+        BadCold                         = true,
+        BadInMicrowave                  = false,
+        DangerousUncooked               = FALSE,
+        GoodHot                         = true,
+        IsCookable                      = true,
+        RemoveUnhappinessWhenCooked     = true,
+        MinutesToCook                   = 10,
+        MinutesToBurn                   = 60,
+        DaysFresh                       = 5,
+        DaysTotallyRotten               = 18,
+        EvolvedRecipe                   = HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
+        CustomEatSound                  = EatingCrispy,
+        ReplaceOnCooked                 = SHFR.CoffeeBeansRoasted
+    }
 }
