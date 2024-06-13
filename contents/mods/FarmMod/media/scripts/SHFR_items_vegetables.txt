@@ -338,6 +338,7 @@ module SHFR {
         Lipids                          = 0,
         Proteins                        = 2,
         SurvivalGear                    = TRUE,
+        StaticModel                     = CylinderFood_Green,
         WorldStaticModel                = Okra_Ground,
         BadCold                         = true,
         BadInMicrowave                  = false,
@@ -349,7 +350,7 @@ module SHFR {
         MinutesToBurn                   = 60,
         DaysFresh                       = 5,
         DaysTotallyRotten               = 18,
-        EvolvedRecipe                   = HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
+        EvolvedRecipe                   = Pizza:9;Omelette:9;Soup:9;Stew:9;Pie:9;Stir fry Griddle Pan:9;Stir fry:9;Salad:9;Roasted Vegetables:9;RicePot:9;RicePan:9;PastaPot:9;PastaPan:9,
         CustomEatSound                  = EatingCrispy,
         ReplaceOnCooked                 = SHFR.CookedOkra
     }
@@ -366,6 +367,7 @@ module SHFR {
         Carbohydrates                   = 14,
         Lipids                          = 0,
         Proteins                        = 0.5,
+        StaticModel                     = CylinderFood_Orange,
         WorldStaticModel                = CookedOkra_Ground,
         CustomEatSound                  = Eating,
     }
