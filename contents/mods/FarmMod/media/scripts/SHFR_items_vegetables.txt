@@ -372,6 +372,28 @@ module SHFR {
         CustomEatSound                  = Eating,
     }
 
+    /* семена Окры */
+    item Okraseed{
+        DisplayCategory                 = Gardening,
+        Type                            = Normal,
+        DisplayName                     = Okra Seeds,
+        Icon                            = SHFR_Seed_OkraSeeds,
+        Weight                          = 0.009,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = OkraSeeds_Ground,
+    }
+
+    /* пачка семян Окры */    
+    item OkraBagSeed {
+        DisplayCategory                 = Gardening,
+        Type                            = Normal,
+        DisplayName                     = Okra Seeds Packet,
+        Icon                            = SHFR_Bag_OkraSeedBag,
+        Weight                          = 0.1,
+        SurvivalGear                    = TRUE,
+        WorldStaticModel                = OkraSeedBag_Ground,
+    }
+
     /* Окра */
     model Okra_Ground {
         mesh            = WorldItems/Zucchini,
@@ -384,5 +406,19 @@ module SHFR {
         mesh            = WorldItems/Zucchini,
         texture         = WorldItems/SHFR_item_OkraRotten,
         scale           = 0.4,
+    }
+
+    /* пачка семян окры */
+    model OkraSeedBag_Ground {
+        mesh            = WorldItems/SeedPacket,
+        texture         = WorldItems/SHFR_Bag_OkraSeedBag_Ground,
+        scale           = 0.5,
+    }
+
+    /* Семена окры */
+    model OkraSeeds_Ground {
+        mesh            = WorldItems/Seeds,
+        texture         = WorldItems/SHFR_Seed_OkraSeeds_Ground,
+        scale           = 0.5,
     }
 }
