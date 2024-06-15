@@ -22,6 +22,7 @@ Recipes_EN {
     Recipe_Open_Packet_of_Pepper_Seeds          = "Open packet of pepper seeds",
     Recipe_Open_Packet_of_Watermelon_Seeds      = "Open packet of watermelon seeds",
     Recipe_Open_Packet_of_Zucchini_Seeds        = "Open packet of zucchini seeds",
+    Recipe_Open_Packet_of_Okra_Seeds            = "Open packet of okra seeds",
 
     Recipe_Open_Packet_of_BerryBlack_Seeds      = "Open packet of berry black seeds",
     Recipe_Open_Packet_of_BerryBlue_Seeds       = "Open packet of berry blue seeds",
@@ -56,6 +57,7 @@ Recipes_EN {
     Recipe_Put_Pepper_Seeds_in_Packet           = "Put pepper seeds in the packet",
     Recipe_Put_Watermelon_Seeds_in_Packet       = "Put watermelon seeds in the packet",
     Recipe_Put_Zucchini_Seeds_in_Packet         = "Put zucchini seeds in the packet",
+    Recipe_Put_Okra_Seeds_in_Packet             = "Put okra seeds in the packet",
 
     Recipe_Put_BerryBlack_Seeds_in_Packet      = "Put berry black seeds in the packet",
     Recipe_Put_BerryBlue_Seeds_in_Packet       = "Put berry blue seeds in the packet",
@@ -90,6 +92,7 @@ Recipes_EN {
     Recipe_Claim_Pepper_Seeds                   = "Get seeds",
     Recipe_Claim_Watermelon_Seeds               = "Get seeds",
     Recipe_Claim_Zucchini_Seeds                 = "Get seeds",
+    Recipe_Claim_Okra_Seeds                     = "Get seeds",
 
     Recipe_Claim_BerryBlack_Seeds               = "Get seeds",
     Recipe_Claim_BerryBlue_Seeds                = "Get seeds",

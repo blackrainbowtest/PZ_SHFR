@@ -112,6 +112,11 @@ function Seed_Zucchini(items, result, player)
     player:getInventory():AddItems("SHFR.Zucchiniseed", seed);
 end
 
+function Seed_Okra(items, result, player)
+    local seed = ZombRand(2, 8)
+    player:getInventory():AddItems("SHFR.Okraseed", seed);
+end
+
 function Seed_Coffee(items, result, player)
     local seed = ZombRand(2, 8)
     player:getInventory():AddItems("SHFR.Coffeeseed", seed);

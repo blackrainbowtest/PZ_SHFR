@@ -22,6 +22,7 @@ ItemName_EN = {
     ItemName_SHFR.Pepperseed         = "Pepper seeds",
     ItemName_SHFR.Watermelonseed     = "Watermelon seeds",
     ItemName_SHFR.Zucchiniseed       = "Zucchini seeds",
+    ItemName_SHFR.Okra               = "Okra seeds",
 
     ItemName_SHFR.BerryBlackseed     = "Berry Black seeds",
     ItemName_SHFR.BerryBlueseed      = "Berry Blue seeds",
@@ -53,6 +54,7 @@ ItemName_EN = {
     ItemName_SHFR.WatermelonBagSeed  = "Watermelon seed packet",
     ItemName_SHFR.PepperBagSeed      = "Pepper seed packet",
     ItemName_SHFR.ZucchiniBagSeed    = "Zucchini seed packet",
+    ItemName_SHFR.OkraBagSeed        = "Okra seed packet",
 
     ItemName_SHFR.BerryBlackBagSeed  = "BerryBlack seed packet",
     ItemName_SHFR.BerryBlueBagSeed   = "BerryBlue seed packet",
@@ -71,4 +73,6 @@ ItemName_EN = {
     ItemName_SHFR.SunFlower          = "Sunflower",
     ItemName_SHFR.WheatGrain         = "Wheat frains",
     ItemName_SHFR.Wheat              = "Wheat",
+    ItemName_SHFR.Okra               = "Okra",
+    ItemName_SHFR.CookedOkra         = "Cooked okra",
 }

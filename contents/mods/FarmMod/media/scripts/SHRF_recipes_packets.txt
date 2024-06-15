@@ -231,6 +231,16 @@ module SHFR {
         Sound:OpenSeedPacket,
     }
 
+    /* семена окры */
+    recipe Open Packet of Okra Seeds {
+        OkraBagSeed,
+
+        Result:Okraseed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
     /* пачка семян чая */
     recipe Open Packet of Tea Seeds {
         TeaBagSeed,
@@ -504,6 +514,16 @@ module SHFR {
         Zucchiniseed=50,
 
         Result:ZucchiniBagSeed,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    /* пачка семян окры */   
+    recipe Put Okra Seeds in Packet {
+        Okraseed=50,
+
+        Result:OkraBagSeed,
         Time:20.0,
         Category:Farming,
         Sound:OpenSeedPacket,

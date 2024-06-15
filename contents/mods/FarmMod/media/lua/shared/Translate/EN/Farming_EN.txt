@@ -9,6 +9,7 @@ Farming_EN = {
   Farming_Pepper = "Pepper",
   Farming_Watermelon = "Watermelon",
   Farming_Zucchini = "Zucchini",
+  Farming_Okra = "Okra",
 
   Farming_Apple = "Apple",
   Farming_Banana = "Banana",

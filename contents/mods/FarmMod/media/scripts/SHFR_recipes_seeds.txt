@@ -346,6 +346,21 @@ module SHFR {
         OnCreate: Seed_Zucchini,
     }
 
+    /* семена окры */   
+    recipe Claim Okra Seeds {
+        Okra,
+
+        Result:Okra,
+        Time:150.0,
+        OnGiveXP:Recipe.OnGiveXP.SHFRFarming3,
+        Category:Farming,
+        NeedToBeLearn:False,
+        Sound:GetingSeeds,
+        
+        RemoveResultItem:true,
+        OnCreate: Seed_Okra,
+    }
+
     /* семена чая */
     recipe Claim Tea Seeds {
         TeaLeaves,
