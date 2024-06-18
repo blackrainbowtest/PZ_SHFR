@@ -12,7 +12,7 @@ function SHFR_Items:getLunchboxItems(rarity)
                    {"SHFR.OrangeBagSeed", rarity}, {"SHFR.PeachBagSeed", rarity}, {"SHFR.PearBagSeed", rarity},
                    {"SHFR.PineappleBagSeed", rarity}, {"SHFR.CornBagSeed", rarity}, {"SHFR.LettuceBagSeed", rarity},
                    {"SHFR.TeaBagSeed", rarity}, {"SHFR.CoffeeBagSeed", rarity}, {"SHFR.WheatBagSeed", rarity},
-                   {"SHFR.SunFlowerBagSeed", rarity}, {"SHFR.PeanutBagSeed", rarity}}
+                   {"SHFR.SunFlowerBagSeed", rarity}, {"SHFR.PeanutBagSeed", rarity}, {"SHFR.OkraBagSeed", rarity}}
 
     return items or {}
 end

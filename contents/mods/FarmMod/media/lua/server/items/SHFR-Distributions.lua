@@ -106,6 +106,8 @@ local function addSandboxLoot()
                     "SHFR.TeaLeaves", LootRarity.Uncommon,
                     "SHFR.CoffeeBeans", LootRarity.Uncommon,
                     "SHFR.CoffeeBeansRoasted", LootRarity.Uncommon,
+                    "SHFR.Okra", LootRarity.Uncommon,
+                    "SHFR.CookedOkra", LootRarity.Uncommon,
                 }
             },
             BandPracticeFridge = {
@@ -113,6 +115,8 @@ local function addSandboxLoot()
                     "SHFR.TeaLeaves", LootRarity.Rare,
                     "SHFR.CoffeeBeans", LootRarity.Rare,
                     "SHFR.CoffeeBeansRoasted", LootRarity.Rare,
+                    "SHFR.Okra", LootRarity.Uncommon,
+                    "SHFR.CookedOkra", LootRarity.Rare,
                 }
             },
             BurgerKitchenFridge = {
@@ -120,6 +124,8 @@ local function addSandboxLoot()
                     "SHFR.TeaLeaves", LootRarity.Rare,
                     "SHFR.CoffeeBeans", LootRarity.Rare,
                     "SHFR.CoffeeBeansRoasted", LootRarity.Uncommon,
+                    "SHFR.Okra", LootRarity.Uncommon,
+                    "SHFR.CookedOkra", LootRarity.Rare,
                 }
             },
             CafeKitchenFridge = {
@@ -127,6 +133,8 @@ local function addSandboxLoot()
                     "SHFR.TeaLeaves", LootRarity.Rare,
                     "SHFR.CoffeeBeans", LootRarity.Uncommon,
                     "SHFR.CoffeeBeansRoasted", LootRarity.Common,
+                    "SHFR.Okra", LootRarity.Uncommon,
+                    "SHFR.CookedOkra", LootRarity.Rare,
                 }
             },
             CrateTea = {
@@ -141,6 +149,8 @@ local function addSandboxLoot()
                     "SHFR.TeaLeaves", LootRarity.Rare,
                     "SHFR.CoffeeBeans", LootRarity.Rare,
                     "SHFR.CoffeeBeansRoasted", LootRarity.Rare,
+                    "SHFR.Okra", LootRarity.Uncommon,
+                    "SHFR.CookedOkra", LootRarity.Rare,
                 }
             },
             FridgeGeneric = {
@@ -148,6 +158,8 @@ local function addSandboxLoot()
                     "SHFR.TeaLeaves", LootRarity.Rare,
                     "SHFR.CoffeeBeans", LootRarity.Rare,
                     "SHFR.CoffeeBeansRoasted", LootRarity.Rare,
+                    "SHFR.Okra", LootRarity.Uncommon,
+                    "SHFR.CookedOkra", LootRarity.Rare,
                 }
             },
             FridgeOffice = {
@@ -155,6 +167,8 @@ local function addSandboxLoot()
                     "SHFR.TeaLeaves", LootRarity.VeryRare,
                     "SHFR.CoffeeBeans", LootRarity.VeryRare,
                     "SHFR.CoffeeBeansRoasted", LootRarity.VeryRare,
+                    "SHFR.Okra", LootRarity.Uncommon,
+                    "SHFR.CookedOkra", LootRarity.Rare,
                 }
             },
             FridgeOther = {
@@ -162,6 +176,8 @@ local function addSandboxLoot()
                     "SHFR.TeaLeaves", LootRarity.VeryRare,
                     "SHFR.CoffeeBeans", LootRarity.VeryRare,
                     "SHFR.CoffeeBeansRoasted", LootRarity.VeryRare,
+                    "SHFR.Okra", LootRarity.Uncommon,
+                    "SHFR.CookedOkra", LootRarity.Rare,
                 }
             },
             FridgeRich = {
@@ -169,6 +185,8 @@ local function addSandboxLoot()
                     "SHFR.TeaLeaves", LootRarity.ExtraRare,
                     "SHFR.CoffeeBeans", LootRarity.ExtraRare,
                     "SHFR.CoffeeBeansRoasted", LootRarity.ExtraRare,
+                    "SHFR.Okra", LootRarity.Uncommon,
+                    "SHFR.CookedOkra", LootRarity.Rare,
                 }
             },
             SpiffosKitchenFridge = {
@@ -176,6 +194,8 @@ local function addSandboxLoot()
                     "SHFR.TeaLeaves", LootRarity.Common,
                     "SHFR.CoffeeBeans", LootRarity.Common,
                     "SHFR.CoffeeBeansRoasted", LootRarity.Common,
+                    "SHFR.Okra", LootRarity.Uncommon,
+                    "SHFR.CookedOkra", LootRarity.Rare,
                 }
             },
             SushiKitchenFridge = {
@@ -183,6 +203,8 @@ local function addSandboxLoot()
                     "SHFR.TeaLeaves", LootRarity.Uncommon,
                     "SHFR.CoffeeBeans", LootRarity.Uncommon,
                     "SHFR.CoffeeBeansRoasted", LootRarity.Uncommon,
+                    "SHFR.Okra", LootRarity.Uncommon,
+                    "SHFR.CookedOkra", LootRarity.Rare,
                 }
             },
             WesternKitchenFridge = {
@@ -190,6 +212,8 @@ local function addSandboxLoot()
                     "SHFR.TeaLeaves", LootRarity.Uncommon,
                     "SHFR.CoffeeBeans", LootRarity.Uncommon,
                     "SHFR.CoffeeBeansRoasted", LootRarity.Uncommon,
+                    "SHFR.Okra", LootRarity.Uncommon,
+                    "SHFR.CookedOkra", LootRarity.Rare,
                 }
             },
         }
