@@ -491,6 +491,38 @@ BTSE.Farming:addNewCrop({
     destroyedSprite = "Zucchiniplant_09",
     rottenSprite = "Zucchiniplant_10",
 });
+-- Окра
+BTSE.Farming:addNewCrop({
+    name = "Okra",
+    group = "IGUI_BTSE.Farming_Group_Vegetables",
+    seedItemType = "SHFR.Okraseed",
+    seedsPerPlot = 6,
+    seedsPerVegetable = 3,
+    waterOptimum = 65,
+    waterMaximum = 100,
+    harvestItemType = "SHFR.Okra",
+    normalHarvestMin = SHFR:plantAbundance(4),
+    normalHarvestMax = SHFR:plantAbundance(5, true),
+    abundantHarvestMin = SHFR:plantAbundance(6),
+    abundantHarvestMax = SHFR:plantAbundance(7, true),
+    growTimeHours = SHFR:plantGrowthTime(PlantGrowthRate.Slow, 6),
+    rotTimeHours = SHFR:plantGrowthTime(PlantGrowthRate.VerySlow),
+    growSprites = {
+        "Okraplant_01", 
+        "Okraplant_02", 
+        "Okraplant_03", 
+        "Okraplant_04", 
+        "Okraplant_05", 
+        "Okraplant_06", 
+        "Okraplant_07",
+        "Okraplant_08"
+    },
+    infoPanelIcon = "Item_Okra",
+    tooltipSprite = "Okraplant_07",
+    drySprite = "Okraplant_08",
+    destroyedSprite = "Okraplant_09",
+    rottenSprite = "Okraplant_10",
+});
 
 -- Ягоды
 -- Клюбника
