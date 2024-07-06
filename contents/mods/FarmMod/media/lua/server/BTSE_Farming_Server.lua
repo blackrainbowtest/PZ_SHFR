@@ -129,36 +129,32 @@ function BTSE.Farming:growCrop(luaObject, nextGrowing, updateNbOfGrow)
 end
 
 -- FIXME: check func again
-function BTSE.Farming:rotDryDestroy(_self, spriteKey, altSprite)
-    local character = getSpecificPlayer(0);
-    character:Say(spriteKey .. "Sprite")
-
-
-    local sprite = BTSE.Farming:getCropConfig(_self["typeOfSeed"], spriteKey .. "Sprite")
+function BTSE.Farming:rotDryDestroy(self, spriteKey, altSprite)
+    local sprite = BTSE.Farming:getCropConfig(self["typeOfSeed"], spriteKey .. "Sprite")
 
     if sprite
     then
         sprite = sprite or altSprite;
 
-        BTSE.Farming:log("Applying " .. tostring(spriteKey) .. "Sprite for custom crop " .. tostring(_self["typeOfSeed"]) .. " -> " .. tostring(sprite));
+        BTSE.Farming:log("Applying " .. tostring(spriteKey) .. "Sprite for custom crop " .. tostring(self["typeOfSeed"]) .. " -> " .. tostring(sprite));
 
-        _self:setSpriteName(sprite);
+        self:setSpriteName(sprite);
     end
 end
 
-function BTSE.Farming:dryCrop(_self)
-    BTSE.Farming:rotDryDestroy(_self, "dry", "vegetation_farming_01_5");
+function BTSE.Farming:dryCrop(self)
+    BTSE.Farming:rotDryDestroy(self, "dry", "vegetation_farming_01_5");
 end
 
-function BTSE.Farming:rotCrop(_self)
-    BTSE.Farming:rotDryDestroy(_self, "rotten", "vegetation_farming_01_13");
+function BTSE.Farming:rotCrop(self)
+        BTSE.Farming:rotDryDestroy(self, "rotten", "vegetation_farming_01_13");    
 end
 
-function BTSE.Farming:destroyCrop(_self)
-    BTSE.Farming:rotDryDestroy(_self, "destroyed", "vegetation_farming_01_13");
+function BTSE.Farming:destroyCrop(self)
+    BTSE.Farming:rotDryDestroy(self, "destroyed", "vegetation_farming_01_13");
 end
 
-function BTSE.Farming:harvestCrop(_self, luaObject, player)
+function BTSE.Farming:harvestCrop(self, luaObject, player)
     local revertToStage = BTSE.Farming:getCropConfig(luaObject["typeOfSeed"], "revertAfterHarvest");
 
     if revertToStage and type(revertToStage) == "number"
