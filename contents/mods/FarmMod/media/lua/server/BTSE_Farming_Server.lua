@@ -140,6 +140,30 @@ function BTSE.Farming:rotDryDestroy(self, spriteKey, altSprite)
 
         self:setSpriteName(sprite);
     end
+
+    local function removeAllButFloor(square)
+        if not square then return nil end
+        for i=square:getObjects():size(),2,-1 do
+            local isoObject = square:getObjects():get(i-1)
+            square:transmitRemoveItemFromSquare(isoObject)
+        end
+        for i=square:getStaticMovingObjects():size(),1,-1 do
+            local isoObject = square:getStaticMovingObjects():get(i-1)
+            isoObject:removeFromWorld()
+            isoObject:removeFromSquare()
+        end
+    end
+
+    if BTSE.Farming["customCrops"][self["typeOfSeed"]]["revertAfterHarvest"] then
+        local nbOfGrow = self["nbOfGrow"] or "nil"
+
+        local square = self:getSquare()
+        if IsoTree and IsoTree.new then
+            removeAllButFloor(square)
+            local tree = IsoTree.new(square, "e_americanholly_1_3")
+            square:AddTileObject(tree)
+        end
+    end
 end
 
 function BTSE.Farming:dryCrop(self)
