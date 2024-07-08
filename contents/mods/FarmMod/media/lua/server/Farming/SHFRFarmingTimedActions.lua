@@ -40,8 +40,6 @@ function SFarmingSystem:checkPlant()
 		luaObject:addIcon()
         
         if luaObject.waterLvl ~= nil then
-            local character = getSpecificPlayer(0);
-            character:Say(tostring(luaObject.waterLvl) .. "_Sprite")
             luaObject:checkStat()
             luaObject:saveData()
         end

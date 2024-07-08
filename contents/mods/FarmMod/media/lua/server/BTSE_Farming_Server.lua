@@ -34,7 +34,6 @@ function BTSE.Farming:addNewCrop(config)
 
     config["growFunctionName"] = "btse_grow" .. tostring(config["name"]);
     config["growFunction"] = config["growFunction"] or function(luaObject, nextGrowing, updateNbOfGrow)
-        -- FIXME: check here
         luaObject = BTSE.Farming:growCustomCrop(luaObject, nextGrowing, updateNbOfGrow);
 
         return luaObject;
@@ -72,7 +71,6 @@ function BTSE.Farming:addNewCrop(config)
         config["growSprites"][7] or "vegetation_farming_01_46",
         config["growSprites"][8] or "vegetation_farming_01_47", -- dead
     };
-    -- FIXME: Tomorrow check this one
     config["rottenSprite"] = config["rottenSprite"] or farming_vegetableconf["sprite"][config["name"]][8];
     config["drySprite"] = config["drySprite"] or farming_vegetableconf["sprite"][config["name"]][8];
     config["destroyedSprite"] = config["destroyedSprite"] or farming_vegetableconf["sprite"][config["name"]][8];
@@ -128,7 +126,6 @@ function BTSE.Farming:growCrop(luaObject, nextGrowing, updateNbOfGrow)
     return luaObject;
 end
 
--- FIXME: check func again
 function BTSE.Farming:rotDryDestroy(self, spriteKey, altSprite)
     local sprite = BTSE.Farming:getCropConfig(self["typeOfSeed"], spriteKey .. "Sprite")
 
@@ -160,7 +157,12 @@ function BTSE.Farming:rotDryDestroy(self, spriteKey, altSprite)
         local square = self:getSquare()
         if IsoTree and IsoTree.new then
             removeAllButFloor(square)
-            local tree = IsoTree.new(square, "e_americanholly_1_3")
+            -- FIXME: maybe need add tile logic to dry tilesheets
+            local tree = IsoTree.new(square, "e_americanlindenJUMBO_1_0")
+            if tree.getSize() then
+                local chr = getSpecificPlayer(0);
+                chr:Say(tostring(tree.getSize()))
+            end
             square:AddTileObject(tree)
         end
     end
@@ -289,7 +291,6 @@ function BTSE.Farming:growCustomCrop(luaObject, nextGrowing, updateNbOfGrow)
     elseif action == "rot"
     then
 		luaObject:rottenThis();
-        -- FIXME: here?
     end
 
     if action == "update" or action == "grow"
