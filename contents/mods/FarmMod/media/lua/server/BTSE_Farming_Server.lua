@@ -157,15 +157,8 @@ function BTSE.Farming:rotDryDestroy(self, spriteKey, altSprite)
         local square = self:getSquare()
         if IsoTree and IsoTree.new then
             removeAllButFloor(square)
-            -- FIXME: maybe need add dry tilesheets
-            local _spriteName = "e_americanholly_1_3"
-            _spriteName = "Okraplant_08"
-            local tree = IsoTree.new(square, getSprite(_spriteName))
-            print(tree)
-            -- if tree.getSize() then
-            --     local chr = getSpecificPlayer(0);
-            --     print(tostring(tree.getSize()))
-            -- end
+            -- LASTUPDATE: "e_americanholly_1_3"
+            local tree = IsoTree.new(square, getSprite(sprite))
             square:AddTileObject(tree)
         end
     end
