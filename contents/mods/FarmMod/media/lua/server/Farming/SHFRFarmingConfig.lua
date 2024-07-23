@@ -372,7 +372,7 @@ BTSE.Farming:addNewCrop({
     seedsPerVegetable = 3,
     waterOptimum = 65,
     waterMaximum = 100,
-    harvestItemType = "Base.Leek",
+    harvestItemType = "Base.Lettuce",
     normalHarvestMin = SHFR:plantAbundance(3),
     normalHarvestMax = SHFR:plantAbundance(5, true),
     abundantHarvestMin = SHFR:plantAbundance(5),

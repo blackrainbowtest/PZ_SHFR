@@ -1,7 +1,7 @@
 module SHFR {
     imports { Base }
 
-    /* семена яблоки */
+    /* получить семена яблоки */
     recipe Claim Apple Seeds {
         Apple,
 
@@ -11,12 +11,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
 
         RemoveResultItem:true,
         OnCreate: Seed_Apple,
     }
 
-    /* пачка семян банана */
+    /* получить семена банана */
     recipe Claim Banana Seeds {
         Banana,
 
@@ -26,12 +27,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
 
         RemoveResultItem:true,
         OnCreate: Seed_Banana,
     }
 
-    /* семена черники */
+    /* получить семена черники */
     recipe Claim BerryBlack Seeds {
         BerryBlack,
 
@@ -41,12 +43,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_BerryBlack,
     }
 
-    /* семена смородины */
+    /* получить семена смородины */
     recipe Claim BerryBlue Seeds {
         BerryBlue,
 
@@ -56,12 +59,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_BerryBlue,
     }
 
-    /* семена вишни */
+    /* получить семена вишни */
     recipe Claim Cherry Seeds {
         Cherry,
 
@@ -71,12 +75,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Cherry,
     }
 
-    /* семена грейфрута */
+    /* получить семена грейфрута */
     recipe Claim Grapefruit Seeds {
         Grapefruit,
 
@@ -86,12 +91,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Grapefruit,
     }
 
-    /* семена винограда */
+    /* получить семена винограда */
     recipe Claim Grapes Seeds {
         Grapes,
 
@@ -101,12 +107,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Grapes,
     }
 
-    /* семена лимона */
+    /* получить семена лимона */
     recipe Claim Lemon Seeds {
         Lemon,
 
@@ -116,12 +123,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Lemon,
     }
 
-    /* семена лайма */
+    /* получить семена лайма */
     recipe Claim Lime Seeds {
         Lime,
 
@@ -131,12 +139,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Lime,
     }
 
-    /* семена манго */
+    /* получить семена манго */
     recipe Claim Mango Seeds {
         Mango,
 
@@ -146,12 +155,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Mango,
     }
 
-    /* семена апельсина */
+    /* получить семена апельсина */
     recipe Claim Orange Seeds {
         Orange,
 
@@ -161,12 +171,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Orange,
     }
 
-    /* семена персика */
+    /* получить семена персика */
     recipe Claim Peach Seeds {
         Peach,
 
@@ -176,12 +187,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Peach,
     }
 
-    /* семена груши */
+    /* получить семена груши */
     recipe Claim Pear Seeds {
         Pear,
 
@@ -191,12 +203,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Pear,
     }
 
-    /* семена ананаса */
+    /* получить семена ананаса */
     recipe Claim Pineapple Seeds {
         Pineapple,
 
@@ -206,12 +219,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Pineapple,
     }
 
-    /* семена авокадо */
+    /* получить семена авокадо */
     recipe Claim Avocado Seeds {
         Avocado,
 
@@ -221,12 +235,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Avocado,
     }
 
-    /* семена кукурузы */
+    /* получить семена кукурузы */
     recipe Claim Corn Seeds {
         Corn,
 
@@ -236,12 +251,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Corn,
     }
 
-    /* семена баклажана */
+    /* получить семена баклажана */
     recipe Claim Eggplant Seeds {
         Eggplant,
 
@@ -251,12 +267,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Eggplant,
     }
 
-    /* семена лука-порей */
+    /* получить семена лука-порей */
     recipe Claim Leek Seeds {
         Leek,
 
@@ -266,12 +283,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Leek,
     }
 
-    /* семена салата */
+    /* получить семена салата */
     recipe Claim Lettuce Seeds {
         Lettuce,
 
@@ -281,12 +299,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Lettuce,
     }
 
-    /* семена лука */
+    /* получить семена лука */
     recipe Claim Onion Seeds {
         Onion,
 
@@ -296,12 +315,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Onion,
     }
 
-    /* семена перца */
+    /* получить семена перца */
     recipe Claim Pepper Seeds {
         Pepper,
 
@@ -311,12 +331,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Pepper,
     }
 
-    /* семена арбуза */
+    /* получить семена арбуза */
     recipe Claim Watermelon Seeds {
         Watermelon,
 
@@ -326,12 +347,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Watermelon,
     }
 
-    /* семена кабачков */   
+    /* получить семена кабачков */   
     recipe Claim Zucchini Seeds {
         Zucchini,
 
@@ -341,12 +363,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Zucchini,
     }
 
-    /* семена окры */   
+    /* получить семена окры */   
     recipe Claim Okra Seeds {
         Okra,
 
@@ -356,12 +379,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Okra,
     }
 
-    /* семена чая */
+    /* получить семена чая */
     recipe Claim Tea Seeds {
         TeaLeaves,
 
@@ -371,12 +395,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Tea,
     }
 
-    /* семена кофе */
+    /* получить семена кофе */
     recipe Claim Coffee Seeds {
         CoffeeBeans,
 
@@ -386,12 +411,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Coffee,
     }
 
-    /* семена подсолнуха */
+    /* получить семена подсолнуха */
     recipe Claim SunFlower Seeds {
         SunFlower,
 
@@ -401,12 +427,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_SunFlower,
     }
 
-    /* семена пшеницы */
+    /* получить семена пшеницы */
     recipe Claim Wheat Seeds {
         Wheat,
 
@@ -416,12 +443,13 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Wheat,
     }
 
-    /* семена арахиса */
+    /* получить семена арахиса */
     recipe Claim Peanut Seeds {
         Peanuts,
 
@@ -431,6 +459,7 @@ module SHFR {
         Category:Farming,
         NeedToBeLearn:False,
         Sound:GetingSeeds,
+        AllowRottenItem:true,
         
         RemoveResultItem:true,
         OnCreate: Seed_Peanut,
