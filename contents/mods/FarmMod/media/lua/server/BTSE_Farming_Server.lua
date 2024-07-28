@@ -153,14 +153,13 @@ function BTSE.Farming:rotDryDestroy(self, spriteKey, altSprite)
 
     if BTSE.Farming["customCrops"][self["typeOfSeed"]]["revertAfterHarvest"] then
         local nbOfGrow = self["nbOfGrow"] or "nil"
-
         local square = self:getSquare()
-        if IsoTree and IsoTree.new then
-            removeAllButFloor(square)
-            -- LASTUPDATE: "e_americanholly_1_3"
-            local tree = IsoTree.new(square, getSprite(sprite))
-            square:AddTileObject(tree)
-        end
+        removeAllButFloor(square)
+        -- FIXME: by default "e_americanholly_1_3" get current tree sprite getSprite(sprite)
+        local tree = IsoTree.new(square, "e_americanholly_1_3")
+        square:AddTileObject(tree)
+        -- REMEMBERME: for remove i can use sq:transmitRemoveItemFromSquare(self.item);
+        tree:transmitCompleteItemToClients()
     end
 end
 

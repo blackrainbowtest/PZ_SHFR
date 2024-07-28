@@ -1,6 +1,8 @@
+if isClient() then return end
+
 require "Farming/SFarmingSystem";
 
--- Сохраняем старую версию функции checkStat
+-- Save old version
 local oldCheckPlant = SFarmingSystem["checkPlant"]
 
 function SFarmingSystem:checkPlant()

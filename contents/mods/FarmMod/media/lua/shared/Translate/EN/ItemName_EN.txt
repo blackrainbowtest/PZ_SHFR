@@ -24,8 +24,8 @@ ItemName_EN = {
     ItemName_SHFR.Zucchiniseed       = "Zucchini seeds",
     ItemName_SHFR.Okraseed           = "Okra seeds",
 
-    ItemName_SHFR.BerryBlackseed     = "Berry Black seeds",
-    ItemName_SHFR.BerryBlueseed      = "Berry Blue seeds",
+    ItemName_SHFR.BerryBlackseed     = "Black Berry seeds",
+    ItemName_SHFR.BerryBlueseed      = "Blue Berry seeds",
 
     ItemName_SHFR.Teaseed            = "Tea seeds",
     ItemName_SHFR.Coffeeseed         = "Coffee seeds",
@@ -56,8 +56,8 @@ ItemName_EN = {
     ItemName_SHFR.ZucchiniBagSeed    = "Zucchini seed packet",
     ItemName_SHFR.OkraBagSeed        = "Okra seed packet",
 
-    ItemName_SHFR.BerryBlackBagSeed  = "BerryBlack seed packet",
-    ItemName_SHFR.BerryBlueBagSeed   = "BerryBlue seed packet",
+    ItemName_SHFR.BerryBlackBagSeed  = "BlackBerry seed packet",
+    ItemName_SHFR.BerryBlueBagSeed   = "BlueBerry seed packet",
 
     ItemName_SHFR.TeaBagSeed         = "Tea seed packet",
     ItemName_SHFR.CoffeeBagSeed      = "Coffee seed packet",
