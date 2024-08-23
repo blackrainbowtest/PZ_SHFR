@@ -1,0 +1,14 @@
+Sandbox_RU = {
+    Sandbox_SHFR = "НАСТРОЙКИ МОДА ФЕРМЕРСТВА",
+
+    Sandbox_SHFR_SeedsCountGeneral = "НАСТРОЙКИ ПОЯВЛЕНИЯ СЕМЯН:",
+    Sandbox_SHFR_SeedsCountGeneral_tooltip = "Устанавливает обилие спавн-паков семян в игре.",
+    Sandbox_SHFR_SeedsCountGeneral_option1 = "Очень низкий",
+    Sandbox_SHFR_SeedsCountGeneral_option2 = "Низкий",
+    Sandbox_SHFR_SeedsCountGeneral_option3 = "Нормальный",
+    Sandbox_SHFR_SeedsCountGeneral_option4 = "Высокий",
+    Sandbox_SHFR_SeedsCountGeneral_option5 = "Очень высокий",
+
+    Sandbox_SHFR_WeatherImpactGeneral = "НАСТРОЙКИ ВЛИЯНИЯ ПОГОДЫ:",
+    Sandbox_SHFR_WeatherImpactGeneral_tooltip = "Некоторые растения не будут расти в холодную погоду",
+}
