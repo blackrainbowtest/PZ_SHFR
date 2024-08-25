@@ -1,0 +1,38 @@
+Farming_RU = {
+
+  Farming_Avocado = "Авокадо",
+  Farming_Corn = "Кукуруза",
+  Farming_Eggplant = "Баклажан",
+  Farming_Leek = "Лук-порей",
+  Farming_Lettuce = "Салат",
+  Farming_Onion = "Лук",
+  Farming_Pepper = "Перец",
+  Farming_Watermelon = "Арбуз",
+  Farming_Zucchini = "Цукини",
+  Farming_Okra = "Окра",
+
+  Farming_Apple = "Яблоко",
+  Farming_Banana = "Банан",
+  Farming_Cherry = "Вишня",
+  Farming_Grapefruit = "Грейпфрут",
+  Farming_Grapes = "Виноград",
+  Farming_Lemon = "Лимон",
+  Farming_Lime = "Лайм",
+  Farming_Mango = "Манго",
+  Farming_Orange = "Апельсин",
+  Farming_Peach = "Персик",
+  Farming_Pear = "Груша",
+  Farming_Pineapple = "Ананас",
+
+  Farming_BerryBlack = "Черника",
+  Farming_BerryBlue = "Голубика",
+
+  Farming_TeaLeaves = "Чайные листья",
+  Farming_CoffeeBeans = "Кофейные зерна",
+  
+  Farming_SunFlower = "Подсолнух",
+  Farming_Wheat = "Пшеница",
+  
+  Farming_Peanuts = "Арахис",
+
+}
