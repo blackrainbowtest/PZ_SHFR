@@ -1,0 +1,78 @@
+ItemName_RU = {
+/*___________________ПРЕДМЕТЫ: СЕМЕНА________________________*/
+    ItemName_SHFR.Appleseed          = "Семена яблока",
+    ItemName_SHFR.Bananaseed         = "Семена банана",
+    ItemName_SHFR.Cherryseed         = "Семена вишни",
+    ItemName_SHFR.Grapefruitseed     = "Семена грейпфрута",
+    ItemName_SHFR.Grapesseed         = "Семена винограда",
+    ItemName_SHFR.Lemonseed          = "Семена лимона",
+    ItemName_SHFR.Limeseed           = "Семена лайма",
+    ItemName_SHFR.Mangoseed          = "Семена манго",
+    ItemName_SHFR.Orangeseed         = "Семена апельсина",
+    ItemName_SHFR.Peachseed          = "Семена персика",
+    ItemName_SHFR.Pearseed           = "Семена груши",
+    ItemName_SHFR.Pineappleseed      = "Семена ананаса",
+
+    ItemName_SHFR.Avocadoseed        = "Семена авокадо",
+    ItemName_SHFR.Cornseed           = "Семена кукурузы",
+    ItemName_SHFR.Eggplantseed       = "Семена баклажана",
+    ItemName_SHFR.Leekseed           = "Семена лука-порея",
+    ItemName_SHFR.Lettuceseed        = "Семена салата",
+    ItemName_SHFR.Onionseed          = "Семена лука",
+    ItemName_SHFR.Pepperseed         = "Семена перца",
+    ItemName_SHFR.Watermelonseed     = "Семена арбуза",
+    ItemName_SHFR.Zucchiniseed       = "Семена цукини",
+    ItemName_SHFR.Okraseed           = "Семена окры",
+
+    ItemName_SHFR.BerryBlackseed     = "Семена черной ягоды",
+    ItemName_SHFR.BerryBlueseed      = "Семена голубики",
+
+    ItemName_SHFR.Teaseed            = "Семена чая",
+    ItemName_SHFR.Coffeeseed         = "Семена кофе",
+
+    ItemName_SHFR.Peanutseed         = "Семена арахиса",
+/*___________________ПРЕДМЕТЫ: ПАЧКИ СЕМЯН___________________*/
+    ItemName_SHFR.AppleBagSeed       = "Пакет семян яблока",
+    ItemName_SHFR.BananaBagSeed      = "Пакет семян банана",
+    ItemName_SHFR.CherryBagSeed      = "Пакет семян вишни",
+    ItemName_SHFR.GrapefruitBagSeed  = "Пакет семян грейпфрута",
+    ItemName_SHFR.GrapesBagSeed      = "Пакет семян винограда",
+    ItemName_SHFR.LemonBagSeed       = "Пакет семян лимона",
+    ItemName_SHFR.LimeBagSeed        = "Пакет семян лайма",
+    ItemName_SHFR.MangoBagSeed       = "Пакет семян манго",
+    ItemName_SHFR.OrangeBagSeed      = "Пакет семян апельсина",
+    ItemName_SHFR.PeachBagSeed       = "Пакет семян персика",
+    ItemName_SHFR.PearBagSeed        = "Пакет семян груши",
+    ItemName_SHFR.PineappleBagSeed   = "Пакет семян ананаса",
+
+    ItemName_SHFR.AvocadoBagSeed     = "Пакет семян авокадо",
+    ItemName_SHFR.CornBagSeed        = "Пакет семян кукурузы",
+    ItemName_SHFR.EggplantBagSeed    = "Пакет семян баклажана",
+    ItemName_SHFR.LeekBagSeed        = "Пакет семян лука-порея",
+    ItemName_SHFR.LettuceBagSeed     = "Пакет семян салата",
+    ItemName_SHFR.OnionBagSeed       = "Пакет семян лука",
+    ItemName_SHFR.WatermelonBagSeed  = "Пакет семян арбуза",
+    ItemName_SHFR.PepperBagSeed      = "Пакет семян перца",
+    ItemName_SHFR.ZucchiniBagSeed    = "Пакет семян цукини",
+    ItemName_SHFR.OkraBagSeed        = "Пакет семян окры",
+
+    ItemName_SHFR.BerryBlackBagSeed  = "Пакет семян черной ягоды",
+    ItemName_SHFR.BerryBlueBagSeed   = "Пакет семян голубики",
+
+    ItemName_SHFR.TeaBagSeed         = "Пакет семян чая",
+    ItemName_SHFR.CoffeeBagSeed      = "Пакет семян кофе",
+    
+    ItemName_SHFR.WheatBagSeed       = "Пакет семян пшеницы",
+    ItemName_SHFR.SunFlowerBagSeed   = "Пакет семян подсолнуха",
+
+    ItemName_SHFR.PeanutBagSeed      = "Пакет семян арахиса",
+/*___________________ПРЕДМЕТЫ: НОВЫЕ_________________________*/
+    ItemName_SHFR.TeaLeaves          = "Чайные листья",
+    ItemName_SHFR.CoffeeBeans        = "Кофейные зерна",
+    ItemName_SHFR.CoffeeBeansRoasted = "Жареные кофейные зерна",
+    ItemName_SHFR.SunFlower          = "Подсолнух",
+    ItemName_SHFR.WheatGrain         = "Зерна пшеницы",
+    ItemName_SHFR.Wheat              = "Пшеница",
+    ItemName_SHFR.Okra               = "Окра",
+    ItemName_SHFR.CookedOkra         = "Приготовленная окра",
+}
