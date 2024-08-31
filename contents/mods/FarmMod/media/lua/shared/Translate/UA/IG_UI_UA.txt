@@ -1,0 +1,9 @@
+IGUI_EN =
+{
+	IGUI_BTSE.Farming_Group_Vegetables = "Овочі",
+	IGUI_BTSE.Farming_Group_Fruits = "Фрукти",
+	IGUI_BTSE.Farming_Group_Berries = "Ягоди",
+	IGUI_BTSE.Farming_Group_Cultivated = "Культури",
+	IGUI_BTSE.Farming_Group_Cereal = "Зернові культури",
+	IGUI_BTSE.Farming_Group_Nuts = "Горіхи",
+}
