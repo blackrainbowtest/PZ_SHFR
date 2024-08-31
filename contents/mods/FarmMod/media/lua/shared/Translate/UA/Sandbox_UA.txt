@@ -1,0 +1,14 @@
+Sandbox_EN = {
+    Sandbox_SHFR = "НАЛАШТУВАННЯ МОДУ ФЕРМЕРСТВА",
+
+    Sandbox_SHFR_SeedsCountGeneral = "НАСТРОЙКИ ПОСІВІВ: ",
+    Sandbox_SHFR_SeedsCountGeneral_tooltip = "Встановлює кількість пакетів насіння, що з'являються у грі",
+    Sandbox_SHFR_SeedsCountGeneral_option1 = "Дуже низька",
+    Sandbox_SHFR_SeedsCountGeneral_option2 = "Низька",
+    Sandbox_SHFR_SeedsCountGeneral_option3 = "Нормальна",
+    Sandbox_SHFR_SeedsCountGeneral_option4 = "Висока",
+    Sandbox_SHFR_SeedsCountGeneral_option5 = "Дуже висока",
+
+    Sandbox_SHFR_WeatherImpactGeneral = "НАСТРОЙКИ ВПЛИВУ ПОГОДИ: ",
+    Sandbox_SHFR_WeatherImpactGeneral_tooltip = "Деякі рослини не будуть рости у холодну погоду",
+}
