@@ -156,7 +156,15 @@ function BTSE.Farming:rotDryDestroy(self, spriteKey, altSprite)
         local square = self:getSquare()
         removeAllButFloor(square)
         -- FIXME: by default "e_americanholly_1_3" get current tree sprite getSprite(sprite)
-        local tree = IsoTree.new(square, "e_americanholly_1_3")
+        local spriteName = "e_americanholly_1_3"
+        -- local character = getSpecificPlayer(0);
+        -- character:Say("Campfire")
+        -- if sprite then 
+        --     character:Say("I Worked")
+        --     print(sprite)
+        --     spriteName = getSprite(sprite) 
+        -- end
+        local tree = IsoTree.new(square, spriteName)
         square:AddTileObject(tree)
         -- REMEMBERME: for remove i can use sq:transmitRemoveItemFromSquare(self.item);
         tree:transmitCompleteItemToClients()
