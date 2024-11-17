@@ -106,6 +106,27 @@ BTSE.Commands.Farming = BTSE.Commands.Farming or {};
 
 -- state changes
 
+-- FIXME add havsertItemdroppOnGround logic
+function BTSE.Farming:dropHavsertItemOnGround(luaObject)
+    local character = getSpecificPlayer(0);
+    local _square = luaObject:getSquare();
+    local item = luaObject["harvestItemType"];
+    -- local item 	= instanceItem( luaObject["harvestItemType"] );
+
+    print("luaObject:________________________________-", tostring(luaObject["harvestItemType"]))
+    if item then
+        character:Say("item is NOT nil")
+    else
+        character:Say("item is nil")
+    end
+
+    -- FIXME i worked)))) need update more
+    if true then
+        _square:AddWorldInventoryItem("Base.Apple", ZombRandFloat(0.1, 0.9), ZombRandFloat(0.1, 0.9), 0);
+    end
+    -- `C:\Users\<username>\Zomboid\console.txt`
+end
+
 function BTSE.Farming:growCrop(luaObject, nextGrowing, updateNbOfGrow)
     if luaObject["state"] == "seeded" then
         local growFn = BTSE.Farming:getCropConfig(luaObject["typeOfSeed"], "growFunction");
@@ -147,6 +168,12 @@ function BTSE.Farming:rotDryDestroy(self, spriteKey, altSprite)
     end
 
     if BTSE.Farming["customCrops"][self["typeOfSeed"]]["revertAfterHarvest"] then
+        -- FIXME later
+        -- elseif TileIsoObjectType == IsoObjectType.tree then
+        --     local temp = IsoTree.new(_square, getSprite(_spriteName))
+        --     _square:AddTileObject(temp)
+        --     if isClient() then temp:transmitCompleteItemToServer(); end
+        --     triggerEvent("OnObjectAdded", temp)
         local nbOfGrow = self["nbOfGrow"] or "nil"
         local square = self:getSquare()
         removeAllButFloor(square)
@@ -260,6 +287,8 @@ function BTSE.Farming:growCustomCrop(luaObject, nextGrowing, updateNbOfGrow)
         luaObject["nextGrowing"] = calcNextGrowing(nextGrowing, plantConfig["timeToGrow"] + waterLevel + diseaseLevel);
         luaObject["hasVegetable"] = true;
     elseif growPhase == 6 and isAlive then
+        -- FIXME add fruites on ground
+        BTSE.Farming:dropHavsertItemOnGround(luaObject)
         luaObject["nextGrowing"] = calcNextGrowing(nextGrowing,
             BTSE.Farming:getCropConfig(luaObject["typeOfSeed"], "rotTimeHours"));
         luaObject["hasVegetable"] = true;
