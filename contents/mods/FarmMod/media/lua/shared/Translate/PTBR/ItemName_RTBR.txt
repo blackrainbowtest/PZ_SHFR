@@ -1,0 +1,78 @@
+ItemName_PTBR = {
+/*___________________ITENS: SEMENTES________________________*/
+    ItemName_SHFR.Appleseed          = "Sementes de maçã",
+    ItemName_SHFR.Bananaseed         = "Sementes de banana",
+    ItemName_SHFR.Cherryseed         = "Sementes de cereja",
+    ItemName_SHFR.Grapefruitseed     = "Sementes de toranja",
+    ItemName_SHFR.Grapesseed         = "Sementes de uva",
+    ItemName_SHFR.Lemonseed          = "Sementes de limão",
+    ItemName_SHFR.Limeseed           = "Sementes de lima",
+    ItemName_SHFR.Mangoseed          = "Sementes de manga",
+    ItemName_SHFR.Orangeseed         = "Sementes de laranja",
+    ItemName_SHFR.Peachseed          = "Sementes de pêssego",
+    ItemName_SHFR.Pearseed           = "Sementes de pera",
+    ItemName_SHFR.Pineappleseed      = "Sementes de abacaxi",
+
+    ItemName_SHFR.Avocadoseed        = "Sementes de abacate",
+    ItemName_SHFR.Cornseed           = "Sementes de milho",
+    ItemName_SHFR.Eggplantseed       = "Sementes de berinjela",
+    ItemName_SHFR.Leekseed           = "Sementes de alho-poró",
+    ItemName_SHFR.Lettuceseed        = "Sementes de alface",
+    ItemName_SHFR.Onionseed          = "Sementes de cebola",
+    ItemName_SHFR.Pepperseed         = "Sementes de pimenta",
+    ItemName_SHFR.Watermelonseed     = "Sementes de melancia",
+    ItemName_SHFR.Zucchiniseed       = "Sementes de abobrinha",
+    ItemName_SHFR.Okraseed           = "Sementes de quiabo",
+
+    ItemName_SHFR.BerryBlackseed     = "Sementes de amora-preta",
+    ItemName_SHFR.BerryBlueseed      = "Sementes de mirtilo",
+
+    ItemName_SHFR.Teaseed            = "Sementes de chá",
+    ItemName_SHFR.Coffeeseed         = "Sementes de café",
+
+    ItemName_SHFR.Peanutseed         = "Sementes de amendoim",
+/*___________________ITENS: PACOTES DE SEMENTES______________*/
+    ItemName_SHFR.AppleBagSeed       = "Pacote de sementes de maçã",
+    ItemName_SHFR.BananaBagSeed      = "Pacote de sementes de banana",
+    ItemName_SHFR.CherryBagSeed      = "Pacote de sementes de cereja",
+    ItemName_SHFR.GrapefruitBagSeed  = "Pacote de sementes de toranja",
+    ItemName_SHFR.GrapesBagSeed      = "Pacote de sementes de uva",
+    ItemName_SHFR.LemonBagSeed       = "Pacote de sementes de limão",
+    ItemName_SHFR.LimeBagSeed        = "Pacote de sementes de lima",
+    ItemName_SHFR.MangoBagSeed       = "Pacote de sementes de manga",
+    ItemName_SHFR.OrangeBagSeed      = "Pacote de sementes de laranja",
+    ItemName_SHFR.PeachBagSeed       = "Pacote de sementes de pêssego",
+    ItemName_SHFR.PearBagSeed        = "Pacote de sementes de pera",
+    ItemName_SHFR.PineappleBagSeed   = "Pacote de sementes de abacaxi",
+
+    ItemName_SHFR.AvocadoBagSeed     = "Pacote de sementes de abacate",
+    ItemName_SHFR.CornBagSeed        = "Pacote de sementes de milho",
+    ItemName_SHFR.EggplantBagSeed    = "Pacote de sementes de berinjela",
+    ItemName_SHFR.LeekBagSeed        = "Pacote de sementes de alho-poró",
+    ItemName_SHFR.LettuceBagSeed     = "Pacote de sementes de alface",
+    ItemName_SHFR.OnionBagSeed       = "Pacote de sementes de cebola",
+    ItemName_SHFR.WatermelonBagSeed  = "Pacote de sementes de melancia",
+    ItemName_SHFR.PepperBagSeed      = "Pacote de sementes de pimenta",
+    ItemName_SHFR.ZucchiniBagSeed    = "Pacote de sementes de abobrinha",
+    ItemName_SHFR.OkraBagSeed        = "Pacote de sementes de quiabo",
+
+    ItemName_SHFR.BerryBlackBagSeed  = "Pacote de sementes de amora-preta",
+    ItemName_SHFR.BerryBlueBagSeed   = "Pacote de sementes de mirtilo",
+
+    ItemName_SHFR.TeaBagSeed         = "Pacote de sementes de chá",
+    ItemName_SHFR.CoffeeBagSeed      = "Pacote de sementes de café",
+    
+    ItemName_SHFR.WheatBagSeed       = "Pacote de sementes de trigo",
+    ItemName_SHFR.SunFlowerBagSeed   = "Pacote de sementes de girassol",
+
+    ItemName_SHFR.PeanutBagSeed      = "Pacote de sementes de amendoim",
+/*___________________ITENS: NOVOS___________________________*/
+    ItemName_SHFR.TeaLeaves          = "Folhas de chá",
+    ItemName_SHFR.CoffeeBeans        = "Grãos de café",
+    ItemName_SHFR.CoffeeBeansRoasted = "Grãos de café torrados",
+    ItemName_SHFR.SunFlower          = "Girassol",
+    ItemName_SHFR.WheatGrain         = "Grãos de trigo",
+    ItemName_SHFR.Wheat              = "Trigo",
+    ItemName_SHFR.Okra               = "Quiabo",
+    ItemName_SHFR.CookedOkra         = "Quiabo cozido",
+}

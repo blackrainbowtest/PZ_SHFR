@@ -719,8 +719,8 @@ BTSE.Farming:addNewCrop({
     infoPanelIcon = "Item_Apple",
     tooltipSprite = "Appleplant_07",
     drySprite = "Appleplant_08",
-    destroyedSprite = "Appleplant_08",
-    rottenSprite = "Appleplant_08",
+    destroyedSprite = "Appleplant_09",
+    rottenSprite = "Appleplant_10",
     revertAfterHarvest = 3,
 });
 -- Банан
@@ -950,8 +950,8 @@ BTSE.Farming:addNewCrop({
     infoPanelIcon = "Item_Mango",
     tooltipSprite = "Mangoplant_07",
     drySprite = "Mangoplant_08",
-    destroyedSprite = "Mangoplant_08",
-    rottenSprite = "Mangoplant_08",
+    destroyedSprite = "Mangoplant_09",
+    rottenSprite = "Mangoplant_10",
     revertAfterHarvest = 3,
 });
 -- Апельсин
@@ -983,8 +983,8 @@ BTSE.Farming:addNewCrop({
     infoPanelIcon = "Item_Orange",
     tooltipSprite = "Orangeplant_07",
     drySprite = "Orangeplant_08",
-    destroyedSprite = "Orangeplant_08",
-    rottenSprite = "Orangeplant_08",
+    destroyedSprite = "Orangeplant_09",
+    rottenSprite = "Orangeplant_10",
     revertAfterHarvest = 3,
 });
 -- Персик

@@ -1,0 +1,9 @@
+IGUI_PTBR = 
+{
+    IGUI_BTSE.Farming_Group_Vegetables = "Vegetais",
+    IGUI_BTSE.Farming_Group_Fruits = "Frutas",
+    IGUI_BTSE.Farming_Group_Berries = "Frutas vermelhas",
+    IGUI_BTSE.Farming_Group_Cultivated = "Plantas cultivadas",
+    IGUI_BTSE.Farming_Group_Cereal = "Plantas cereais",
+    IGUI_BTSE.Farming_Group_Nuts = "Nozes",
+}

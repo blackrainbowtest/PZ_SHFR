@@ -1,0 +1,116 @@
+Recipes_PTBR = {
+/*___________________RECEITAS PARA ABRIR PACOTES___________________*/
+    Recipe_Open_Packet_of_Apple_Seeds           = "Abrir pacote de sementes de maçã",
+    Recipe_Open_Packet_of_Banana_Seeds          = "Abrir pacote de sementes de banana",
+    Recipe_Open_Packet_of_Cherry_Seeds          = "Abrir pacote de sementes de cereja",
+    Recipe_Open_Packet_of_Grapefruit_Seeds      = "Abrir pacote de sementes de toranja",
+    Recipe_Open_Packet_of_Grapes_Seeds          = "Abrir pacote de sementes de uva",
+    Recipe_Open_Packet_of_Lemon_Seeds           = "Abrir pacote de sementes de limão",
+    Recipe_Open_Packet_of_Lime_Seeds            = "Abrir pacote de sementes de lima",
+    Recipe_Open_Packet_of_Mango_Seeds           = "Abrir pacote de sementes de manga",
+    Recipe_Open_Packet_of_Orange_Seeds          = "Abrir pacote de sementes de laranja",
+    Recipe_Open_Packet_of_Peach_Seeds           = "Abrir pacote de sementes de pêssego",
+    Recipe_Open_Packet_of_Pear_Seeds            = "Abrir pacote de sementes de pera",
+    Recipe_Open_Packet_of_Pineapple_Seeds       = "Abrir pacote de sementes de abacaxi",
+
+    Recipe_Open_Packet_of_Avocado_Seeds         = "Abrir pacote de sementes de abacate",
+    Recipe_Open_Packet_of_Corn_Seeds            = "Abrir pacote de sementes de milho",
+    Recipe_Open_Packet_of_Eggplant_Seeds        = "Abrir pacote de sementes de berinjela",
+    Recipe_Open_Packet_of_Leek_Seeds            = "Abrir pacote de sementes de alho-poró",
+    Recipe_Open_Packet_of_Lettuce_Seeds         = "Abrir pacote de sementes de alface",
+    Recipe_Open_Packet_of_Onion_Seeds           = "Abrir pacote de sementes de cebola",
+    Recipe_Open_Packet_of_Pepper_Seeds          = "Abrir pacote de sementes de pimentão",
+    Recipe_Open_Packet_of_Watermelon_Seeds      = "Abrir pacote de sementes de melancia",
+    Recipe_Open_Packet_of_Zucchini_Seeds        = "Abrir pacote de sementes de abobrinha",
+    Recipe_Open_Packet_of_Okra_Seeds            = "Abrir pacote de sementes de quiabo",
+
+    Recipe_Open_Packet_of_BerryBlack_Seeds      = "Abrir pacote de sementes de amora preta",
+    Recipe_Open_Packet_of_BerryBlue_Seeds       = "Abrir pacote de sementes de mirtilo",
+
+    Recipe_Open_Packet_of_Tea_Seeds             = "Abrir pacote de sementes de chá",
+    Recipe_Open_Packet_of_Coffee_Seeds          = "Abrir pacote de sementes de café",
+
+    Recipe_Open_Packet_of_Wheat_Seeds           = "Abrir pacote de sementes de trigo",
+    Recipe_Open_Packet_of_SunFlower_Seeds       = "Abrir pacote de sementes de girassol",
+
+    Recipe_Open_Packet_of_Peanut_Seeds          = "Abrir pacote de sementes de amendoim",
+
+/*___________________RECEITAS PARA FECHAR PACOTES___________________*/
+    Recipe_Put_Apple_Seeds_in_Packet           = "Colocar sementes de maçã no pacote",
+    Recipe_Put_Banana_Seeds_in_Packet          = "Colocar sementes de banana no pacote",
+    Recipe_Put_Cherry_Seeds_in_Packet          = "Colocar sementes de cereja no pacote",
+    Recipe_Put_Grapefruit_Seeds_in_Packet      = "Colocar sementes de toranja no pacote",
+    Recipe_Put_Grapes_Seeds_in_Packet          = "Colocar sementes de uva no pacote",
+    Recipe_Put_Lemon_Seeds_in_Packet           = "Colocar sementes de limão no pacote",
+    Recipe_Put_Lime_Seeds_in_Packet            = "Colocar sementes de lima no pacote",
+    Recipe_Put_Mango_Seeds_in_Packet           = "Colocar sementes de manga no pacote",
+    Recipe_Put_Orange_Seeds_in_Packet          = "Colocar sementes de laranja no pacote",
+    Recipe_Put_Peach_Seeds_in_Packet           = "Colocar sementes de pêssego no pacote",
+    Recipe_Put_Pear_Seeds_in_Packet            = "Colocar sementes de pera no pacote",
+    Recipe_Put_Pineapple_Seeds_in_Packet       = "Colocar sementes de abacaxi no pacote",
+
+    Recipe_Put_Avocado_Seeds_in_Packet          = "Colocar sementes de abacate no pacote",
+    Recipe_Put_Corn_Seeds_in_Packet             = "Colocar sementes de milho no pacote",
+    Recipe_Put_Eggplant_Seeds_in_Packet         = "Colocar sementes de berinjela no pacote",
+    Recipe_Put_Leek_Seeds_in_Packet             = "Colocar sementes de alho-poró no pacote",
+    Recipe_Put_Lettuce_Seeds_in_Packet          = "Colocar sementes de alface no pacote",
+    Recipe_Put_Onion_Seeds_in_Packet            = "Colocar sementes de cebola no pacote",
+    Recipe_Put_Pepper_Seeds_in_Packet           = "Colocar sementes de pimentão no pacote",
+    Recipe_Put_Watermelon_Seeds_in_Packet       = "Colocar sementes de melancia no pacote",
+    Recipe_Put_Zucchini_Seeds_in_Packet         = "Colocar sementes de abobrinha no pacote",
+    Recipe_Put_Okra_Seeds_in_Packet             = "Colocar sementes de quiabo no pacote",
+
+    Recipe_Put_BerryBlack_Seeds_in_Packet      = "Colocar sementes de amora preta no pacote",
+    Recipe_Put_BerryBlue_Seeds_in_Packet       = "Colocar sementes de mirtilo no pacote",
+
+    Recipe_Put_Tea_Seeds_in_Packet              = "Colocar sementes de chá no pacote",
+    Recipe_Put_Coffee_Seeds_in_Packet           = "Colocar sementes de café no pacote",
+    
+    Recipe_Put_Wheat_Seeds_in_Packet            = "Colocar sementes de trigo no pacote",
+    Recipe_Put_SunFlower_Seeds_in_Packet        = "Colocar sementes de girassol no pacote",
+
+    Recipe_Put_Peanut_Seeds_in_Packet           = "Colocar sementes de amendoim no pacote",
+
+/*___________________RECEITAS PARA OBTER SEMENTES___________________*/
+    Recipe_Claim_Apple_Seeds                    = "Obter sementes",
+    Recipe_Claim_Banana_Seeds                   = "Obter sementes",
+    Recipe_Claim_Cherry_Seeds                   = "Obter sementes",
+    Recipe_Claim_Grapefruit_Seeds               = "Obter sementes",
+    Recipe_Claim_Grapes_Seeds                   = "Obter sementes",
+    Recipe_Claim_Lemon_Seeds                    = "Obter sementes",
+    Recipe_Claim_Lime_Seeds                     = "Obter sementes",
+    Recipe_Claim_Mango_Seeds                    = "Obter sementes",
+    Recipe_Claim_Orange_Seeds                   = "Obter sementes",
+    Recipe_Claim_Peach_Seeds                    = "Obter sementes",
+    Recipe_Claim_Pear_Seeds                     = "Obter sementes",
+    Recipe_Claim_Pineapple_Seeds                = "Obter sementes",
+
+    Recipe_Claim_Avocado_Seeds                  = "Obter sementes",
+    Recipe_Claim_Corn_Seeds                     = "Obter sementes",
+    Recipe_Claim_Eggplant_Seeds                 = "Obter sementes",
+    Recipe_Claim_Leek_Seeds                     = "Obter sementes",
+    Recipe_Claim_Lettuce_Seeds                  = "Obter sementes",
+    Recipe_Claim_Onion_Seeds                    = "Obter sementes",
+    Recipe_Claim_Pepper_Seeds                   = "Obter sementes",
+    Recipe_Claim_Watermelon_Seeds               = "Obter sementes",
+    Recipe_Claim_Zucchini_Seeds                 = "Obter sementes",
+    Recipe_Claim_Okra_Seeds                     = "Obter sementes",
+
+    Recipe_Claim_BerryBlack_Seeds               = "Obter sementes",
+    Recipe_Claim_BerryBlue_Seeds                = "Obter sementes",
+
+    Recipe_Claim_Tea_Seeds                      = "Obter sementes",
+    Recipe_Claim_Coffee_Seeds                   = "Obter sementes",
+
+    Recipe_Claim_SunFlower_Seeds                = "Obter sementes",
+    Recipe_Claim_Wheat_Seeds                    = "Obter sementes",
+
+    Recipe_Claim_Peanut_Seeds                   = "Obter sementes",
+
+/*___________________RECEITAS PARA CRIAR ITENS___________________*/
+    Recipe_Make_Tea_Bag                         = "Fazer saquinho de chá",
+    Recipe_Make_Coffee                          = "Fazer café",
+    Recipe_Make_Flour_From_Wheat_Grain          = "Fazer farinha",
+    Recipe_Make_OilVegetable_From_SunflowerSeeds = "Fazer óleo vegetal",
+    Recipe_Make_Popcorn_From_Corn               = "Fazer pipoca",
+}

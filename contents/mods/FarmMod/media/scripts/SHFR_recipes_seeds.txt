@@ -323,9 +323,9 @@ module SHFR {
 
     /* получить семена перца */
     recipe Claim Pepper Seeds {
-        Pepper,
+        Base.BellPepper,
 
-        Result:Pepper,
+        Result:Base.BellPepper,
         Time:150.0,
         OnGiveXP:Recipe.OnGiveXP.SHFRFarming3,
         Category:Farming,

@@ -56,20 +56,19 @@ function BTSE.Farming:addNewCrop(config)
         minVegAutorized = config["abundantHarvestMin"] or 5,
         maxVegAutorized = config["abundantHarvestMax"] or 9,
 
-        btseGroup = config["group"],
+        btseGroup = config["group"]
     };
 
     config["growSprites"] = config["growSprites"] or {};
 
-    farming_vegetableconf["sprite"][config["name"]] = {
-        config["growSprites"][1] or "vegetation_farming_01_40", --seeded
-        config["growSprites"][2] or "vegetation_farming_01_41", --growth
-        config["growSprites"][3] or "vegetation_farming_01_42",
-        config["growSprites"][4] or "vegetation_farming_01_43",
-        config["growSprites"][5] or "vegetation_farming_01_44",
-        config["growSprites"][6] or "vegetation_farming_01_45",
-        config["growSprites"][7] or "vegetation_farming_01_46",
-        config["growSprites"][8] or "vegetation_farming_01_47", -- dead
+    farming_vegetableconf["sprite"][config["name"]] = {config["growSprites"][1] or "vegetation_farming_01_40", -- seeded
+                                                       config["growSprites"][2] or "vegetation_farming_01_41", -- growth
+                                                       config["growSprites"][3] or "vegetation_farming_01_42",
+                                                       config["growSprites"][4] or "vegetation_farming_01_43",
+                                                       config["growSprites"][5] or "vegetation_farming_01_44",
+                                                       config["growSprites"][6] or "vegetation_farming_01_45",
+                                                       config["growSprites"][7] or "vegetation_farming_01_46",
+                                                       config["growSprites"][8] or "vegetation_farming_01_47" -- dead
     };
     config["rottenSprite"] = config["rottenSprite"] or farming_vegetableconf["sprite"][config["name"]][8];
     config["drySprite"] = config["drySprite"] or farming_vegetableconf["sprite"][config["name"]][8];
@@ -83,18 +82,14 @@ function BTSE.Farming:addNewCrop(config)
 
     BTSE.Farming:log("Added new crop [" .. tostring(config["name"]) .. "]");
 
-    if BTSE.Farming["debugMode"]
-    then
+    if BTSE.Farming["debugMode"] then
         BTSE.Farming:logArray(config);
     end
 end
 
 function BTSE.Farming:getCropConfig(seedName, param)
-    if BTSE.Farming["customCrops"][seedName]
-    then
-        return param
-            and BTSE.Farming["customCrops"][seedName][param]
-            or BTSE.Farming["customCrops"][seedName];
+    if BTSE.Farming["customCrops"][seedName] then
+        return param and BTSE.Farming["customCrops"][seedName][param] or BTSE.Farming["customCrops"][seedName];
     end
 
     return false;
@@ -102,8 +97,7 @@ end
 
 -- rest is pure server stuff
 
-if isClient()
-then
+if isClient() then
     return;
 end
 
@@ -113,12 +107,10 @@ BTSE.Commands.Farming = BTSE.Commands.Farming or {};
 -- state changes
 
 function BTSE.Farming:growCrop(luaObject, nextGrowing, updateNbOfGrow)
-    if luaObject["state"] == "seeded"
-    then
+    if luaObject["state"] == "seeded" then
         local growFn = BTSE.Farming:getCropConfig(luaObject["typeOfSeed"], "growFunction");
 
-        if growFn
-        then
+        if growFn then
             luaObject = growFn(luaObject, nextGrowing, updateNbOfGrow);
         end
     end
@@ -129,23 +121,26 @@ end
 function BTSE.Farming:rotDryDestroy(self, spriteKey, altSprite)
     local sprite = BTSE.Farming:getCropConfig(self["typeOfSeed"], spriteKey .. "Sprite")
 
-    if sprite
-    then
+    if sprite then
         sprite = sprite or altSprite;
 
-        BTSE.Farming:log("Applying " .. tostring(spriteKey) .. "Sprite for custom crop " .. tostring(self["typeOfSeed"]) .. " -> " .. tostring(sprite));
+        BTSE.Farming:log(
+            "Applying " .. tostring(spriteKey) .. "Sprite for custom crop " .. tostring(self["typeOfSeed"]) .. " -> " ..
+                tostring(sprite));
 
         self:setSpriteName(sprite);
     end
 
     local function removeAllButFloor(square)
-        if not square then return nil end
-        for i=square:getObjects():size(),2,-1 do
-            local isoObject = square:getObjects():get(i-1)
+        if not square then
+            return nil
+        end
+        for i = square:getObjects():size(), 2, -1 do
+            local isoObject = square:getObjects():get(i - 1)
             square:transmitRemoveItemFromSquare(isoObject)
         end
-        for i=square:getStaticMovingObjects():size(),1,-1 do
-            local isoObject = square:getStaticMovingObjects():get(i-1)
+        for i = square:getStaticMovingObjects():size(), 1, -1 do
+            local isoObject = square:getStaticMovingObjects():get(i - 1)
             isoObject:removeFromWorld()
             isoObject:removeFromSquare()
         end
@@ -159,10 +154,10 @@ function BTSE.Farming:rotDryDestroy(self, spriteKey, altSprite)
         local spriteName = "e_americanholly_1_3"
         -- local character = getSpecificPlayer(0);
         -- character:Say("Campfire")
-        -- if sprite then 
-        --     character:Say("I Worked")
-        --     print(sprite)
-        --     spriteName = getSprite(sprite) 
+        -- if sprite then
+        --     --     print(sprite)
+        --     spriteName = getSprite(sprite)
+        --     character:Say(spriteName)
         -- end
         local tree = IsoTree.new(square, spriteName)
         square:AddTileObject(tree)
@@ -176,7 +171,7 @@ function BTSE.Farming:dryCrop(self)
 end
 
 function BTSE.Farming:rotCrop(self)
-        BTSE.Farming:rotDryDestroy(self, "rotten", "vegetation_farming_01_13");    
+    BTSE.Farming:rotDryDestroy(self, "rotten", "vegetation_farming_01_13");
 end
 
 function BTSE.Farming:destroyCrop(self)
@@ -186,22 +181,20 @@ end
 function BTSE.Farming:harvestCrop(self, luaObject, player)
     local revertToStage = BTSE.Farming:getCropConfig(luaObject["typeOfSeed"], "revertAfterHarvest");
 
-    if revertToStage and type(revertToStage) == "number"
-    then
+    if revertToStage and type(revertToStage) == "number" then
         BTSE.Farming:log("Reverting plant to stage: " .. tostring(revertToStage));
 
         local props = farming_vegetableconf.props[luaObject["typeOfSeed"]]
-        local harvestCount = getVegetablesNumber(props["minVeg"], props["maxVeg"], props["minVegAutorized"], props["maxVegAutorized"], luaObject)
+        local harvestCount = getVegetablesNumber(props["minVeg"], props["maxVeg"], props["minVegAutorized"],
+            props["maxVegAutorized"], luaObject)
 
-        if player
-        then
+        if player then
             player:sendObjectChange('addItemOfType', {
                 type = props["vegetableName"],
                 count = harvestCount
             });
 
-            if luaObject["hasSeed"]
-            then
+            if luaObject["hasSeed"] then
                 player:sendObjectChange('addItemOfType', {
                     type = props["seedName"],
                     count = props["seedPerVeg"] * harvestCount
@@ -225,10 +218,8 @@ function BTSE.Farming:harvestCrop(self, luaObject, player)
 end
 
 function BTSE.Farming:refreshCropSprite(luaObject)
-    if luaObject
-    then
-        if type(luaObject["nbOfGrow"]) == "table"
-        then
+    if luaObject then
+        if type(luaObject["nbOfGrow"]) == "table" then
             luaObject["nbOfGrow"] = 0;
 
             luaObject:saveData();
@@ -236,7 +227,8 @@ function BTSE.Farming:refreshCropSprite(luaObject)
 
         local sprite = farming_vegetableconf.getSpriteName(luaObject);
 
-        BTSE.Farming:log("Refreshing crop sprite for " .. tostring(luaObject["typeOfSeed"]) .. " -> " .. tostring(sprite));
+        BTSE.Farming:log("Refreshing crop sprite for " .. tostring(luaObject["typeOfSeed"]) .. " -> " ..
+                             tostring(sprite));
 
         luaObject:setObjectName(farming_vegetableconf.getObjectName(luaObject));
         luaObject:setSpriteName(sprite);
@@ -249,59 +241,51 @@ end
 
 function BTSE.Farming:growCustomCrop(luaObject, nextGrowing, updateNbOfGrow)
     local plantConfig = farming_vegetableconf.props[luaObject["typeOfSeed"]];
-	local waterLevel = farming_vegetableconf.calcWater(luaObject["waterNeeded"], luaObject["waterLvl"]);
-	local diseaseLevel = farming_vegetableconf.calcDisease(luaObject["mildewLvl"]);
+    local waterLevel = farming_vegetableconf.calcWater(luaObject["waterNeeded"], luaObject["waterLvl"]);
+    local diseaseLevel = farming_vegetableconf.calcDisease(luaObject["mildewLvl"]);
     local isAlive = waterLevel >= 0 and diseaseLevel >= 0;
     local growPhase = luaObject["nbOfGrow"] or 0;
     local action = "update";
 
-	if growPhase <= 0
-    then
-		luaObject["nbOfGrow"] = 0;
-		luaObject["waterNeeded"] = plantConfig["waterLvl"] + 5 <= 100
-            and plantConfig["waterLvl"] + 5
-            or 100;
+    if growPhase <= 0 then
+        luaObject["nbOfGrow"] = 0;
+        luaObject["waterNeeded"] = plantConfig["waterLvl"] + 5 <= 100 and plantConfig["waterLvl"] + 5 or 100;
         action = "grow";
-    elseif growPhase ~= 0 and not isAlive
-    then
+    elseif growPhase ~= 0 and not isAlive then
         action = "wither";
-	elseif growPhase <= 4 and isAlive
-    then
+    elseif growPhase <= 4 and isAlive then
         action = "grow";
         luaObject["waterNeeded"] = plantConfig["waterLvl"];
-	elseif growPhase == 5 and isAlive
-    then
+    elseif growPhase == 5 and isAlive then
         luaObject["nextGrowing"] = calcNextGrowing(nextGrowing, plantConfig["timeToGrow"] + waterLevel + diseaseLevel);
         luaObject["hasVegetable"] = true;
-	elseif growPhase == 6 and isAlive
-    then
-        luaObject["nextGrowing"] = calcNextGrowing(nextGrowing, BTSE.Farming:getCropConfig(luaObject["typeOfSeed"], "rotTimeHours"));
+    elseif growPhase == 6 and isAlive then
+        luaObject["nextGrowing"] = calcNextGrowing(nextGrowing,
+            BTSE.Farming:getCropConfig(luaObject["typeOfSeed"], "rotTimeHours"));
         luaObject["hasVegetable"] = true;
         luaObject["hasSeed"] = true;
-	elseif luaObject["state"] ~= "rotten"
-    then
+    elseif luaObject["state"] ~= "rotten" then
         action = "rot";
-	end
-
-    BTSE.Farming:log("Processing custom grow function for " .. tostring(luaObject["typeOfSeed"]) .. " -> " .. tostring(action));
-
-    if action == "grow"
-    then
-        luaObject = growNext(luaObject, farming_vegetableconf.getSpriteName(luaObject), farming_vegetableconf.getObjectName(luaObject), nextGrowing, plantConfig["timeToGrow"] + waterLevel + diseaseLevel);
-    elseif action == "wither"
-    then
-        badPlant(waterLevel, nil, diseaseLevel, luaObject, nextGrowing, updateNbOfGrow);
-    elseif action == "rot"
-    then
-		luaObject:rottenThis();
     end
 
-    if action == "update" or action == "grow"
-    then
+    BTSE.Farming:log("Processing custom grow function for " .. tostring(luaObject["typeOfSeed"]) .. " -> " ..
+                         tostring(action));
+
+    if action == "grow" then
+        luaObject = growNext(luaObject, farming_vegetableconf.getSpriteName(luaObject),
+            farming_vegetableconf.getObjectName(luaObject), nextGrowing,
+            plantConfig["timeToGrow"] + waterLevel + diseaseLevel);
+    elseif action == "wither" then
+        badPlant(waterLevel, nil, diseaseLevel, luaObject, nextGrowing, updateNbOfGrow);
+    elseif action == "rot" then
+        luaObject:rottenThis();
+    end
+
+    if action == "update" or action == "grow" then
         BTSE.Farming:refreshCropSprite(luaObject);
     end
 
-	return luaObject;
+    return luaObject;
 end
 
 -- handlers
@@ -310,8 +294,7 @@ function BTSE.Commands.Farming.revitalizePlant(playerObj, args)
     local square = getCell():getGridSquare(args["x"], args["y"], args["z"]);
     local plant = SFarmingSystem.instance:getLuaObjectAt(args["x"], args["y"], args["z"]);
 
-    if plant
-    then
+    if plant then
         SFarmingSystem.instance:removePlant(plant);
     end
 
@@ -319,34 +302,29 @@ function BTSE.Commands.Farming.revitalizePlant(playerObj, args)
 
     plant = SFarmingSystem.instance:getLuaObjectAt(args["x"], args["y"], args["z"]);
 
-    if plant and plant["state"] == "plow"
-    then
+    if plant and plant["state"] == "plow" then
         plant:seed(args["seedName"]);
 
         plant = SFarmingSystem.instance:getLuaObjectAt(args["x"], args["y"], args["z"]);
 
-        if plant
-        then
-            plant:water(nil, plant["waterNeededMax"]
-                and plant["waterNeededMax"] - plant["waterLvl"]
-                or 100 - plant["waterLvl"]
-            );
+        if plant then
+            plant:water(nil, plant["waterNeededMax"] and plant["waterNeededMax"] - plant["waterLvl"] or 100 -
+                plant["waterLvl"]);
 
             plant["nbOfGrow"] = args["spriteIndex"] - 1;
-            plant["nbOfGrow"] = plant["nbOfGrow"] > -1
-                and plant["nbOfGrow"]
-                or 0;
+            plant["nbOfGrow"] = plant["nbOfGrow"] > -1 and plant["nbOfGrow"] or 0;
 
             plant["nextGrowing"] = SFarmingSystem.instance["hoursElapsed"] - plant["nextGrowing"];
 
             plant:saveData();
 
-            if plant["state"] == "seeded"
-            then
+            if plant["state"] == "seeded" then
                 BTSE.Farming:refreshCropSprite(plant);
             end
 
-            BTSE.Farming:logError("WARNING: plant of type [" .. tostring(args["seedName"]) .. "] was revitalized to stage [" .. tostring(plant["nbOfGrow"]) .. "] at " .. tostring(args["x"]) .. "," .. tostring(args["y"]) .. "," .. tostring(args["z"]));
+            BTSE.Farming:logError("WARNING: plant of type [" .. tostring(args["seedName"]) ..
+                                      "] was revitalized to stage [" .. tostring(plant["nbOfGrow"]) .. "] at " ..
+                                      tostring(args["x"]) .. "," .. tostring(args["y"]) .. "," .. tostring(args["z"]));
         end
     end
 end
@@ -354,8 +332,7 @@ end
 -- events
 
 Events.OnClientCommand.Add(function(moduleName, command, playerObj, args)
-	if moduleName == "btse_farming" and BTSE.Commands.Farming[command]
-	then
-		BTSE.Commands.Farming[command](playerObj, args);
-	end
+    if moduleName == "btse_farming" and BTSE.Commands.Farming[command] then
+        BTSE.Commands.Farming[command](playerObj, args);
+    end
 end);
