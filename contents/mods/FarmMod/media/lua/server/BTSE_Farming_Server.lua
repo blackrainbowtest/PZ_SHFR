@@ -105,26 +105,18 @@ BTSE.Commands = BTSE.Commands or {};
 BTSE.Commands.Farming = BTSE.Commands.Farming or {};
 
 -- state changes
-
--- FIXME add havsertItemdroppOnGround logic
 function BTSE.Farming:dropHavsertItemOnGround(luaObject)
     local character = getSpecificPlayer(0);
     local _square = luaObject:getSquare();
-    local item = luaObject["harvestItemType"];
-    -- local item 	= instanceItem( luaObject["harvestItemType"] );
+    local item = BTSE.Farming["customCrops"][luaObject["typeOfSeed"]]["harvestItemType"];
+    local isTree = BTSE.Farming["customCrops"][luaObject["typeOfSeed"]]["revertAfterHarvest"]
 
-    print("luaObject:________________________________-", tostring(luaObject["harvestItemType"]))
-    if item then
-        character:Say("item is NOT nil")
-    else
-        character:Say("item is nil")
+    if isTree then
+        local rndLoop = ZombRand(2, 4)
+        for i = 1, rndLoop do
+            _square:AddWorldInventoryItem(item, ZombRandFloat(0.1, 0.9), ZombRandFloat(0.1, 0.9), 0)
+        end
     end
-
-    -- FIXME i worked)))) need update more
-    if true then
-        _square:AddWorldInventoryItem("Base.Apple", ZombRandFloat(0.1, 0.9), ZombRandFloat(0.1, 0.9), 0);
-    end
-    -- `C:\Users\<username>\Zomboid\console.txt`
 end
 
 function BTSE.Farming:growCrop(luaObject, nextGrowing, updateNbOfGrow)

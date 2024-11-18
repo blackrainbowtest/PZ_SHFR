@@ -1,0 +1,14 @@
+Sandbox_PTBR = {
+    Sandbox_SHFR = "CONFIGURA??ES DO MOD DE AGRICULTURA",
+
+    Sandbox_SHFR_SeedsCountGeneral = "CONFIGURA??ES DE APARECIMENTO DE SEMENTES: ",
+    Sandbox_SHFR_SeedsCountGeneral_tooltip = "Define a abund?ncia de pacotes de sementes no jogo",
+    Sandbox_SHFR_SeedsCountGeneral_option1 = "Muito baixo",
+    Sandbox_SHFR_SeedsCountGeneral_option2 = "Baixo",
+    Sandbox_SHFR_SeedsCountGeneral_option3 = "Normal",
+    Sandbox_SHFR_SeedsCountGeneral_option4 = "Alto",
+    Sandbox_SHFR_SeedsCountGeneral_option5 = "Muito alto",
+
+    Sandbox_SHFR_WeatherImpactGeneral = "CONFIGURA??ES DE IMPACTO DO CLIMA: ",
+    Sandbox_SHFR_WeatherImpactGeneral_tooltip = "Certas plantas n?o crescer?o em clima frio",
+}
