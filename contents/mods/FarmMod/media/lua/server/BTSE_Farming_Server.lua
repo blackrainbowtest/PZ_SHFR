@@ -104,13 +104,20 @@ end
 BTSE.Commands = BTSE.Commands or {};
 BTSE.Commands.Farming = BTSE.Commands.Farming or {};
 
--- state changes
+-- CL-v1.02a dropHavsertItemOnGround
 function BTSE.Farming:dropHavsertItemOnGround(luaObject)
-    local character = getSpecificPlayer(0);
+    if not luaObject then
+        return
+    end
     local _square = luaObject:getSquare();
+    if not _square then
+        return
+    end
+    local character = getSpecificPlayer(0);
     local item = BTSE.Farming["customCrops"][luaObject["typeOfSeed"]]["harvestItemType"];
     local isTree = BTSE.Farming["customCrops"][luaObject["typeOfSeed"]]["revertAfterHarvest"]
 
+    -- If it's a tree, we execute the item drop logic
     if isTree then
         local rndLoop = ZombRand(2, 4)
         for i = 1, rndLoop do
@@ -119,13 +126,31 @@ function BTSE.Farming:dropHavsertItemOnGround(luaObject)
     end
 end
 
+-- CL-v1.02a growCrop
 function BTSE.Farming:growCrop(luaObject, nextGrowing, updateNbOfGrow)
-    if luaObject["state"] == "seeded" then
-        local growFn = BTSE.Farming:getCropConfig(luaObject["typeOfSeed"], "growFunction");
+    -- Check if luaObject was passed
+    if not luaObject then
+        return nil
+    end
 
-        if growFn then
-            luaObject = growFn(luaObject, nextGrowing, updateNbOfGrow);
-        end
+    -- Checking the presence and correctness of the "state" field
+    if not luaObject["state"] or luaObject["state"] ~= "seeded" then
+        return luaObject
+    end
+
+    -- Checking the presence and correctness of the "typeOfSeed" field
+    if not luaObject["typeOfSeed"] then
+        return luaObject
+    end
+
+    -- Getting the growth function from the configuration
+    local growFn = BTSE.Farming:getCropConfig(luaObject["typeOfSeed"], "growFunction")
+
+    -- If the growth function exists, call it
+    if growFn then
+        luaObject = growFn(luaObject, nextGrowing, updateNbOfGrow)
+    else
+        print("Warning: growFunction for typeOfSeed '" .. tostring(luaObject["typeOfSeed"]) .. "' is not defined.")
     end
 
     return luaObject;
@@ -170,7 +195,7 @@ function BTSE.Farming:rotDryDestroy(self, spriteKey, altSprite)
         local square = self:getSquare()
         removeAllButFloor(square)
         -- FIXME: by default "e_americanholly_1_3" get current tree sprite getSprite(sprite)
-        local spriteName = "e_americanholly_1_3"
+        local spriteName = "e_riverbirch_1_1"
         -- local character = getSpecificPlayer(0);
         -- character:Say("Campfire")
         -- if sprite then
